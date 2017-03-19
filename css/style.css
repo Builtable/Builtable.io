@@ -1,0 +1,340 @@
+@font-face {font-family: 'Noodle';
+src: url('noodle-webfont.eot');
+src: url('noodle-webfont.eot?#iefix') format('eot'),
+url('noodle-webfont.woff') format('woff'),
+url('noodle.ttf') format('truetype'),
+url('noodle-webfont.svg') format('svg');
+font-weight: normal;
+font-style: normal;}
+
+
+#home {
+  background: url("img/bg.jpg") no-repeat top center fixed;
+  background-color: #000000;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+h1 {
+  color: #333333;
+  font-family: "Noodle";
+  font-size: 4em;
+  text-align: center;
+  padding-top: 2%;
+}
+
+#home h1 {
+  color: #ffffff;
+  float: left;
+  font-family: "Noodle";
+  font-size: 5.5em;
+  text-align: left;
+}
+
+#home.btn {
+  float: left;
+}
+
+ul.nav a{
+  color: #ffffff;
+  font-family: 'Roboto Slab', serif;
+  text-shadow: 0px 2px 5px rgba(5, 5, 5, 0.4);
+}
+
+ul.nav a:hover {
+  color: #fc4d1e;
+  background-color: #333333;
+  font-family: 'Roboto Slab', serif;
+}
+
+#about
+{
+  background: url("img/bg-about.jpg") no-repeat top center;
+  background-color: #ff6633;
+}
+
+.about-section{
+  padding-top: 8%;
+  padding-bottom: 8%;
+  height: auto;
+}
+
+#about h1 {
+  font-family: "Noodle";
+  font-size: 3em;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+#about p {
+  font-family: "Roboto";
+  font-size: 1.2em;
+  line-height: 1.7em;
+  color: #ffffff;
+}
+
+.events-section {
+  padding-top: 3%;
+}
+
+.eventstitle {
+  background: url("img/eventstitle.jpg") no-repeat top center;
+  padding: 3%;
+  height: 300px;
+  background-size: cover;
+}
+
+.eventstitle h1{
+  color: #ffffff;
+  font-family: "Noodle";
+  font-size: 3em;
+  text-align: center;
+  padding-top: 30%;
+  padding-bottom: 20%;
+
+}
+.eventstitle a{
+  color: #ffffff;
+  font-family: "Noodle";
+  font-size: 1em;
+  text-align: center;
+  overflow:auto;
+
+}
+
+.eventscontent {
+  background-color: #f3f3f3;
+  padding: 3%;
+  height: 300px;
+}
+
+.eventscontent h1{
+  color: #333333;
+  font-family: "Noodle";
+  font-size: 2.5em;
+  text-align: center;
+  padding-top: 0;
+  padding-top: 20%;
+}
+.eventscontent p{
+  color: #fb8d62;
+  font-family: "Roboto";
+  font-size: 1.2em;
+  text-align: center;
+  padding-bottom: 20%;
+}
+
+.services-section
+{
+  background: url("img/whitebg.jpg");
+  height: auto;
+  overflow: auto;
+
+}
+
+
+#services h1 {
+  font-family: "Noodle";
+  font-size: 3em;
+  color: #333333;
+  padding: 0;
+  margin: 0;
+}
+
+#services2 h1 {
+  font-family: "Noodle";
+  font-size: 3em;
+  color: #333333;
+  padding: 0;
+  margin: 0;
+}
+
+#services img {
+  width: 90%;
+}
+
+#services img:hover {
+  opacity: 0.4;
+}
+
+#services p{
+  font-family: "Roboto";
+}
+
+#services2 p{
+  font-family: "Noodle";
+  font-size: 1.8em;
+
+}
+#services2 h2{
+  font-family: "Roboto";
+  font-size: 1em;
+  line-height: 1.4em;
+  color: #777777;
+
+}
+
+
+#services a{
+  font-family: "Noodle";
+  font-size: 2.5em;
+  color: #333333;
+}
+
+#services a:hover{
+  font-family: "Noodle";
+  font-size: 2.5em;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#services2 a{
+  font-family: "Noodle";
+  font-size: 2.5em;
+  color: #333333;
+}
+
+#services2 a:hover{
+  font-family: "Noodle";
+  font-size: 2.5em;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+.ratesbutton{
+  background-color: #ff6633;
+  font-family: "Noodle";
+  font-size: 0.8em;
+  padding: 1%;
+  margin: 3%;
+}
+#community{
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+#community p{
+  font-family: "Roboto";
+  color: #333333;
+  text-align: center;
+  padding-bottom: 5%;
+
+
+}
+
+.commleft{
+  background-color: #e7e7e7;
+  padding: 3%;
+  height: 200px;
+
+}
+
+.commleft h1{
+      font-size: 0.8em;
+      padding: 0;
+      margin: 0;
+}
+
+.commleft p{
+      font-size: 0.9em;
+      padding-bottom: 2%;
+}
+
+.commright{
+  background: url('img/comm.jpg');
+  padding: 3%;
+  height: 200px;
+  background: cover;
+}
+
+#community h1{
+  font-family: "Noodle";
+  font-size: 2em;
+}
+
+#community h2{
+  font-family: "Noodle";
+  font-size: 2.3em;
+  color: #ef5a24;
+  text-align: center;
+  height: auto;
+  overflow: auto;
+}
+
+#contact {
+  background: url("img/bg-about.jpg") no-repeat top center;
+  background-color: #fb8d62;
+  padding-top: 5%;
+  padding-bottom: 10%;
+
+}
+
+#contact p{
+  color: #333333;
+  text-align: left;
+  font-family: "Roboto";
+}
+
+#contact h2{
+  color: #333333;
+  text-align: left;
+  font-family: "Roboto";
+  font-size: 1.3em;
+}
+
+#contact h1{
+  font-size: 3em;
+  padding-bottom: 5%;
+}
+
+.contact-section{
+  height: auto;
+  overflow: auto;
+}
+
+.contactform {
+    padding: 2%;
+    margin: 1%;
+    width: 85%;
+    left-padding: 2%;
+    background-color: #ffffff;
+    color: #394d60;
+    border: 0px;
+    font-family: 'Roboto';
+}
+
+.buttonform {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #ff7c49;
+    background-color: #333333;
+    padding: 1.5%;
+    font-size: 1em;
+    border: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.footer {
+  background-color: #333333;
+
+}
+
+.footer h1{
+  color: #666666;
+  font-family: "Roboto";
+  font-size: 0.8em;
+  padding-top: 0;
+  letter-spacing: 1px;
+}
+
+.footer a{
+  color: #999999;
+  font-family: "Montserrat";
+  font-size: 1em;
+  padding-top: 0;
+  letter-spacing: 2px;
+}
