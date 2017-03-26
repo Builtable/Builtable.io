@@ -17,6 +17,10 @@ font-style: normal;}
   -o-background-size: cover;
 }
 
+.navbar.navbar-fixed-top.top-nav-collapse{
+  background-color:#333333;
+}
+
 h1 {
   color: #333333;
   font-family: "Noodle";
