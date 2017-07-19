@@ -1,5 +1,6 @@
 (function () { 
 
+  $(".video-learn").play();
   
 
 $( "#learnForm" ).on("submit",function( el ) {
