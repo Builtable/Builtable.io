@@ -7,7 +7,9 @@ url('noodle-webfont.svg') format('svg');
 font-weight: normal;
 font-style: normal;}
 
-
+body{
+  overflow-x: hidden;
+}
 #home {
   background: url("img/bg.jpg") no-repeat top center fixed;
   background-color: #000000;
@@ -19,6 +21,10 @@ font-style: normal;}
 
 .navbar.navbar-fixed-top.top-nav-collapse{
   background-color:#333333;
+}
+
+.navbar .navbar-fixed-top> ul.nav a:hover{
+background:transparent !important;
 }
 
 h1 {
@@ -49,7 +55,11 @@ ul.nav a{
 
 ul.nav a:hover {
   color: #fc4d1e;
-  background-color: #333333;
+  background-color:transparent;
+  font-family: 'Roboto Slab', serif;
+}
+ul.nav a.active {
+  color: #fc4d1e;
   font-family: 'Roboto Slab', serif;
 }
 
@@ -322,9 +332,10 @@ ul.nav a:hover {
     padding-right: 5%;
 }
 
-.footer {
+.row.footer {
   background-color: #333333;
-
+margin-left:0px;
+margin-right:0px;
 }
 
 .footer h1{
@@ -342,3 +353,31 @@ ul.nav a:hover {
   padding-top: 0;
   letter-spacing: 2px;
 }
+
+
+@media (min-width:320px) and (max-width:768px) {
+  
+     .collapse{
+         display:block !important;
+         padding:0px;
+      }
+        .nav-justified>li{
+                display:inline-block;
+
+         }
+              .nav-justified>li img{
+              width:24px;
+                
+         }
+             .nav-justified>li a{
+        font-size:12px; 
+        }
+             div.page-scroll{
+                 display:none; 
+           }
+ }
+          @media (max-width:320px){
+        .nav-justified>li a{
+        font-size:10px; 
+        }
+          }

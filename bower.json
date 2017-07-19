@@ -1,0 +1,22 @@
+{
+  "name": "Builtable.io",
+  "homepage": "https://github.com/Builtable/Builtable.io",
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "authors": [
+    "Builtable"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.7"
+  }
+}
