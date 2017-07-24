@@ -2,6 +2,18 @@
 <html lang="en">
 
 <head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+            new Date().getTime(), event: 'gtm.js'        
+}); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PD7V8GP');
+    </script>
+    <!-- End Google Tag Manager -->
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +21,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Builtable</title>
+    <title>Coworking</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -17,10 +29,12 @@
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:500,700" rel="stylesheet">
     <link href='fonts/noodle.ttf'>
 
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
@@ -37,6 +51,31 @@
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PD7V8GP" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+   
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="modal fade" id="pushModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+<iframe src="https://www.youtube.com/embed/lRpPbV8FEKI?ecver=2" width="560" height="360" frameborder="0" allowfullscreen></iframe>
+                </div>
+
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+
 
     <!-- Navigation -->
     <nav class="navbar navbar-fixed-top" role="navigation">
@@ -61,7 +100,7 @@
                         <a class="page-scroll" href="index.html"><img src="css/img/logo.png";></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="coworking.html">Coworking</a>
+                        <a class="page-scroll active" href="coworking.html">Coworking</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="learn.html">Learning</a>
@@ -82,110 +121,230 @@
         <!-- /.container -->
     </nav>
 
+    <!-- Intro Section -->
+    <section id="coworking-carousel" class="coworking-section" data-ride="carousel">
 
-    <!-- Services Section -->
-    <section id="services2" class="services-section">
+        <div class="bg-img item active" style="background-image: url(assets/images/c3.jpg)"></div>
+        <div class="bg-img item" style="background-image: url(assets/images/c2.jpg)"></div>
+        <div class="bg-img item" style="background-image: url(assets/images/c1.jpg)"></div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 caption">
+                    <h1>UP TO 50% OFF UNTIL THIS MONTH!</h1>
+                    <a href="#coworking-form" class="btn page-scroll"> Book Now!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- community Section -->
+    <section id="community-stories" class="comm-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Rooms & Rates</h1>
-                    <img src="css/img/room.png" class="col-xs-12"/>
+                    <h1>Featured Stories of our Community</h1>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 com-container">
+                        <div class="comm-content">
+                            <span class="glyphicon glyphicon-play" data-toggle="modal" data-target="#pushModal"></span>
+                            <div class="pink-overlay" data-toggle="modal" data-target="#pushModal">
+
+                            </div>
+                            <div class="comm-image" style="background-image:url(assets/images/fc1.png)"></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>More than the space</h1>
                 </div>
             </div>
             <div class="row ">
-              <div class="col-lg-2 col-lg-offset-1 col-md-offset-1 col-md-2 col-sm-6 col-xs-6">
-                <p>Coworking</p>
-                <h2>A semi-enclosed workspace for 2-4 people; suitable for teamwork which demands frequent internal communication
-and a medium level of concentration.</h2>
-              </div>
-              <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
-                <p>Fab Lab</p>
-                <h2>An open workspace; suitable for fabrication and assembly of materials. Space for collaboration and hands-on workshops.</h2>
-              </div>
-              <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
-                <p>Private Rooms</p>
-                <h2>An enclosed meeting space 2-6 persons, suitable for both formal and informal interactions</h2>
-              </div>
-              <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
-                <p>Meeting Rooms</p>
-                <h2>An enclosed meeting space 2-4 persons, suitable for both formal and informal interactions.</h2>
-              </div>
 
-              <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
-                <p>Touch down</p>
-                <h2>An open meeting point for 2-4 persons; suitable for ad-hoc, informal meetings suitable for short term activities which require little concentration and low interaction</h2>
-              </div>
 
-        <div class="row">
-          <div class="col-xs-12">
-            <div class="ratesbutton">
-            <a href="assets/Coworking-Rates.pdf" target="_blank">DOWNLOAD PDF OF ROOMS & RATES</a>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <img src="css/img/icons_private.png">
+                    <p>Private Rooms</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <img src="css/img/icons_meeting.png">
+                    <p>Meeting Rooms</p>
+                </div>
+
+
+                <div class="col-lg-3  col-md-3 col-sm-6 col-xs-6">
+                    <img src="css/img/icons_net1.png">
+                    <p>High-speed Internet</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <img src="css/img/icons_hardware.png">
+                    <p>Free Usage of Equipment</p>
+
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <img src="css/img/icons_locker.png">
+                    <p>Dedicated Lockers</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <img src="css/img/icons_zen.png">
+                    <p>Zen Area</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <img src="css/img/icons_coffee.png">
+                    <p>A Cup of Coffee</p>
+                </div>
             </div>
-             <div class="ratesbutton">
-                  <a href="https://drive.google.com/file/d/0B54lMrl_mtKMdEtqWlk2WVAxc1E/view?usp=drive_web" target="_blank">DOWNLOAD PDF OF 3D PRINTING RATES</a>
-           
-             </div>
-          </div>
-        </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-lg-4 rates-row">
+                    <div class="ratesbutton">
+                        <a href="assets/Coworking-Rates.pdf">CHECK OUT OUR RATES & ROOMS</a>
+                    </div>
+                    <div class="ratesbutton">
+                        <a href="https://drive.google.com/file/d/0B54lMrl_mtKMdEtqWlk2WVAxc1E/view?usp=drive_web" target="_blank">DOWNLOAD PDF OF 3D PRINTING RATES</a>
 
-      </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
 
     </section>
 
+    <!-- Community Section -->
+    <section id="community" class="community-section">
+        <div class="container">
+
+
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>directions, directions, directions...</h1>
+                </div>
+                <div class="col-lg-8">
+                    <a href="https://www.google.com.ph/maps/dir/''/builtable/data=!4m5!4m4!1m0!1m2!1m1!1s0x3397c83ec6c0f395:0x51a4af0dd5cbce2d?sa=X&ved=0ahUKEwjCp4f955_VAhXLyLwKHT-4CmQQ9RcIggEwCw"
+                        target="_new">
+                        <div class="commright">
+                            <h1></h1>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+
+                    <div class="commleft">
+                        <br>
+                        <p>
+                            We are searchable at <strong>Google Maps</strong> and <strong>Waze</strong>!<br>
+                            <strong>From MRT:</strong> Stop at Shaw Blvd. Station, go down to the side of Starmall. It only
+                            takes a 5-minute walk!<br>
+                            <strong>CarParking:</strong> Park at Starmall (5-minute walk), Park at Shangrila Mall (10-minute
+                            walk).
+
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        </div>
+    </section>
+
     <!-- Contact Section -->
-    <section id="contact" class="contact-section">
+    <section id="coworking-form" class="contact-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Get in touch</h1>
+                    <h3>BE PART OF THE COMMUNITY</h3>
+                    <h4>Coworking with us, 
+                        <a style="color:black;" href="assets/Coworking-Rates.pdf" target="_new" >See rates.</a>
+                    </h4>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-md-offset-1  col-sm-offset-1 col-xs-offset-1 col-md-12 col-sm-12">
-                    <h2>Builtable</h2><p>
-                      3F Unit HI CBC Corporate Center<br>
-                      724 Shaw Boulevard<br>
-                      Barangay Wack-Wack Mandaluyong City, 1555<br>
-                      (Walking Distance from Shaw MRT Station)<br><br>
+                <form id="coworkingForm" name="coworkingForm" method="POST" action="">
 
-                      Open 9AM - 9PM Monday to Friday<br></p>
+                    <div class="form-wrapper">
+                        <div class="form-group col-sm-6">
+                            <label for="name">Name</label>
+                            <input required class="form-control" id="name" name="name" placeholder="Name">
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label for="name">Mobile No.</label>
+                            <input required class="form-control" id="mobileno" name="mobileno" placeholder="Mobile No.">
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label for="name">What would you like to avail?<small> **VAT not included</small></label>
+                            <select class="form-control" required id="serviceSelect">
+                                <option value="Private Offices">Private Offices(Sold Out) - 8500php per seat</option>
+                                 <option value="Coworking hour">Coworking - Hourly Rate - 100php per seat</option>
+                                 <option value="Coworking Day">Coworking - Day Rate - 500php per seat</option>
+                                <option value="Coworking Weekly 5 Days">Coworking - Weekly 5 day pass - 2300php per seat</option>
+                                <option value="Coworking Weekly 20 Days">Coworking - Weekly 20 day pass - 9000php per seat</option>
+                                 <option value="Coworking Monthly Easy">Coworking - Easy Monthly - 4000php per seat </option>
+                                 <option value="Coworking Monthly">Coworking - Monthly - 8000php per seat</option>
+                                <option value="Workshops">Workshops - 3000php per hour - Up to 30pax</option>
+                                <option value="Events">Events - 3000php per hour - Up to 60pax</option>
+                                <option value="Virtual Office">Virtual Office - 1500php per month</option>
+                                </select>
+                        </div>
 
-                      <h2>marketing@builtable.co<br>
-                      +63 917 727 0288 | +63 2 504 0288</h2><br>
+                        <div class="form-group col-sm-6">
+                            <label for="name">Duration of the availed service?</label>
+                            <input required class="form-control" id="duration" name="duration" placeholder="How long will you be saying?">
+                        </div>
 
-                </div>
-                <div class="col-lg-6">
-                  <form id="myform" name="myform" method="POST" action="">
-                      <div class="formInput"><input class="contactform btn-is-disabled" name="from" type="text" placeholder="Name"/></div>
-                      <div class="formInput"><input class="contactform" name="email" type="text" placeholder="Email"/></div>
-                      <div class="formInput"><input class="contactform" name="mobile" type="text" placeholder="Mobile"/></div>
-                      <div class="formInput"><textarea class="contactform" name="message" placeholder="Message"></textarea></div>
-                      <div class="formInput" placeholder="Message"></div>
-                  <input class="buttonform" type="submit" name="submit" value="SEND">
+                        <div class="form-group col-sm-12">
+                            <label for="name">Other Requests:</label>
+                            <textarea required class="form-control" id="others" name="others"></textarea>
+                        </div>
+                        <div class="col-xs-12">
+                            <a class="col-xs-12 col-sm-4 buttonform">Email</a>
+                        </div>
+
+
+                    </div>
+                    <div class="col-xs-12"> <br><br>
+                        <h5>If you are encountering technical difficulties, you may also email us at <a href="mailto:marketing@builtable.co"
+                                style="font-weight:bold;color:black">marketing@builtable.co</a></h5>
+                    </div>
                 </form>
-                </div>
-              </div>
 
             </div>
+
+        </div>
+        </div>
+
         </div>
 
     </section>
     <div class="row footer">
         <div class="col-lg-12">
-            <h1>Builtable Copyright (c) 2016 Copyright Holder All Rights Reserved | Website by <a href="http://worksofheartph.com">WORKS OF HEART</a></h1>
+            <h1>Builtable Copyright (c) 2017 Copyright Holder All Rights Reserved | Website by <a href="http://worksofheartph.com">WORKS OF HEART</a>                X JMTee</h1>
         </div>
     </div>
 
     <!-- jQuery -->
+    
     <script src="js/jquery.js"></script>
-
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
-
+<script src="js/coworking.js"></script>
 </body>
 
 </html>
