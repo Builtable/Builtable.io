@@ -89,6 +89,21 @@
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
+<div class="modal fade" id="jocoModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+    
+      <div class="modal-body">
+       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      
+       <iframe src="https://www.youtube.com/embed/UbeF_YT6EvY?ecver=2" width="560" height="360" frameborder="0"  allowfullscreen></iframe>
+
+    </div>
+   
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
 
     <!-- Navigation -->
     <nav class="navbar navbar-fixed-top" role="navigation">
@@ -161,10 +176,11 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <div class="teacher-content">
-                          <span class="glyphicon glyphicon-play hide"></span>
-                        <!-- <div class="pink-overlay">
+                          <span class="glyphicon glyphicon-play" data-toggle="modal" data-target="#jocoModal"></span>
+                            <div class="pink-overlay" data-toggle="modal" data-target="#jocoModal">
+                    
                            
-                        </div> -->
+                        </div> 
                     <div class="joco"></div>
                        <h5>Joco</h5>
                     </div>
