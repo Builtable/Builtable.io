@@ -93,8 +93,28 @@ ul.nav a.active {
   padding-top: 3%;
 }
 
+.events-box{
+  margin-bottom:20px;
+}
 .eventstitle {
   background: url("img/eventstitle.jpg") no-repeat top center;
+  padding: 3%;
+  height: 300px;
+  background-size: cover;
+}
+.eventstitle a{
+text-decoration:none;
+}
+
+.eventstitle.cowork{
+  background: url("../assets/images/c2.jpg") no-repeat top center;
+  padding: 3%;
+  height: 300px;
+  background-size: cover;
+}
+
+.eventstitle.workshop {
+  background: url("../assets/images/badz.png") no-repeat top center;
   padding: 3%;
   height: 300px;
   background-size: cover;
@@ -107,6 +127,7 @@ ul.nav a.active {
   text-align: center;
   padding-top: 30%;
   padding-bottom: 20%;
+  text-shadow: 6px 2px 30px rgba(0, 0, 0, 1);
 
 }
 .eventstitle a{
