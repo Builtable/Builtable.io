@@ -4,17 +4,27 @@
   background: #fff;
   padding-top: 0px; }
   .learn-intro-section video {
-    width: auto;
-    height: 106%;
     position: absolute;
-    left: 0; }
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%); }
   .learn-intro-section .video-overlay {
     position: absolute;
     background-color: #3e3e3e;
-    z-index: 1;
-    width: 106%;
-    height: 106%;
-    opacity: 0.7; }
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    opacity: 0.7;
+    z-index: 1; }
   .learn-intro-section .caption {
     position: Absolute;
     top: 270px;
@@ -168,23 +178,18 @@
 @media (max-width: 768px) {
   .modal iframe {
     width: 100% !important; }
+  .video-overlay {
+    display: none; }
   .form-wrapper {
     padding: 0px; }
   .learn-intro-section {
     background-color: #333; }
-    .learn-intro-section video {
-      width: 100%;
-      margin-top: -50%; }
-    .learn-intro-section .video-overlay {
-      width: 100%;
-      height: 100%; }
     .learn-intro-section .caption h1 {
       padding-top: 11%; } }
 
 @media (max-width: 320px) {
-  .learn-intro-section video {
-    width: 100%;
-    margin-top: -46%; }
+  .learn-intro-section .video-overlay {
+    display: none; }
   .learn-intro-section .caption h1 {
     padding-top: 4%; } }
 
