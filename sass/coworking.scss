@@ -64,10 +64,30 @@
       cursor: pointer;
     padding-bottom:60px;
     position:relative;
-        background: url(img/bg-about.jpg) no-repeat top center;
+        background: url(img/bg-about.jpg)  top center;
     background-color: #fb8d62;
     h1{
         font-size:3em;
+    }
+    .startups{
+        h1{
+            padding-top: 0px;
+            padding-bottom: 20px;
+        }
+         hr{
+            border-top: 1px solid #b54c2a;
+         }
+    }
+    .companies-logo{
+        margin-bottom:5px;
+        a{
+        display:block;
+        img{
+            display:block;
+            margin:0 auto;
+        }
+
+        }
     }
     .comm-content{
         position:relative;  

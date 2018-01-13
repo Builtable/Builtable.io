@@ -53,7 +53,7 @@
       margin-top: 12px; }
 
 .contact-section {
-  background: url(img/bg-about.jpg) no-repeat top center;
+  background: url(img/bg-about.jpg) top center;
   background-color: #fb8d62;
   padding-top: 3%;
   padding-bottom: 10%; }
@@ -261,10 +261,22 @@
   cursor: pointer;
   padding-bottom: 60px;
   position: relative;
-  background: url(img/bg-about.jpg) no-repeat top center;
+  background: url(img/bg-about.jpg) top center;
   background-color: #fb8d62; }
   #community-stories h1 {
     font-size: 3em; }
+  #community-stories .startups h1 {
+    padding-top: 0px;
+    padding-bottom: 20px; }
+  #community-stories .startups hr {
+    border-top: 1px solid #b54c2a; }
+  #community-stories .companies-logo {
+    margin-bottom: 5px; }
+    #community-stories .companies-logo a {
+      display: block; }
+      #community-stories .companies-logo a img {
+        display: block;
+        margin: 0 auto; }
   #community-stories .comm-content {
     position: relative; }
   #community-stories .com-container {
