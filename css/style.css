@@ -11,6 +11,10 @@ font-style: normal;}
   position: fixed;
   bottom: 22px;
   right: 40px;
+  z-index: 99999;
+}
+.social-media-links a {
+  text-decoration:none;
 }
 
 body{
