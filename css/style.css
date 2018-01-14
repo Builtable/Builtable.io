@@ -7,6 +7,12 @@ url('noodle-webfont.svg') format('svg');
 font-weight: normal;
 font-style: normal;}
 
+.social-media-links{
+  position: fixed;
+  bottom: 22px;
+  right: 40px;
+}
+
 body{
   overflow-x: hidden;
 }

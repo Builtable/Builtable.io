@@ -257,6 +257,11 @@
     color: #333333;
     margin-top: 12px; }
 
+.social-media-links {
+  position: fixed;
+  bottom: 22px;
+  right: 40px; }
+
 #community-stories {
   cursor: pointer;
   padding-bottom: 60px;
