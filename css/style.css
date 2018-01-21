@@ -7,6 +7,22 @@ url('noodle-webfont.svg') format('svg');
 font-weight: normal;
 font-style: normal;}
 
+.contact-float{
+  position:fixed;
+  bottom: 22px;
+  left: 40px;
+  z-index: 99999;
+}
+
+@media (max-width:720px) {
+  .contact-float{
+   left:15px;
+  }
+  .social-media-links{
+      right:15px;
+  }
+}
+
 .social-media-links{
   position: fixed;
   bottom: 22px;
