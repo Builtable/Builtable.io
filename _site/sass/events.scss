@@ -1,0 +1,46 @@
+.hackathons{
+    .thumbnail{
+        font-family: "Noodle";
+       padding:0px;
+        border-radius:0px;
+        .caption{
+            padding:9px 15px;
+            h3{
+                margin-top: 0px;
+                margin-bottom: 2px;
+                text-align: left;
+                small{
+                    
+                  color: #f14b1f;
+                }
+            }
+            p{
+                text-align:left;
+                font-size:16px;
+                color: #727171;
+
+            }
+        }
+    }
+}
+.services-section.events{
+    padding-top:0px;
+    h2{
+        font-family:"noodle";
+    }
+}
+.contact-float{
+    position:fixed;
+    bottom: 22px;
+    left: 40px;
+    z-index: 99999;
+}
+
+@media (max-width:720px) {
+    .contact-float{
+     left:15px;
+    }
+    .social-media-links{
+        right:15px;
+    }
+}
