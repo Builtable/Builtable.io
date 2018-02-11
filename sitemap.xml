@@ -6,29 +6,32 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+
 <url>
-  <loc>http://builtable.co/</loc>
-  <lastmod>2017-11-16T04:06:35+00:00</lastmod>
+  <loc>https://builtable.co/</loc>
+  <lastmod>2018-02-11T10:20:24+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://builtable.co/coworking.html</loc>
-  <lastmod>2017-11-16T04:06:35+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://builtable.co/coworking/</loc>
+  <lastmod>2018-02-11T10:20:24+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://builtable.co/learn.html</loc>
-  <lastmod>2017-11-16T04:06:35+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://builtable.co/comaking/</loc>
+  <lastmod>2018-02-11T10:20:24+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://builtable.co/assets/Coworking-Rates.pdf</loc>
-  <lastmod>2017-11-16T04:06:35+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://builtable.co/events/</loc>
+  <lastmod>2018-02-11T10:20:24+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://builtable.co/index.html</loc>
-  <lastmod>2017-11-16T04:06:35+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://builtable.co/assets/Coworking-Rates.pdf</loc>
+  <lastmod>2018-02-11T10:20:14+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
+
+
 </urlset>
