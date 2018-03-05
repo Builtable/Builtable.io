@@ -1,6 +1,5 @@
 (function () { 
 
-$('#video-learn').get(0).play();
   
 
 $( "#learnForm" ).on("submit",function( el ) {
@@ -59,6 +58,3 @@ function objectifyForm(formArray) {//serialize data function
 }
  }());
 
-$( document ).ready(function() {
-    $('#video-learn').get(0).play();
-});
