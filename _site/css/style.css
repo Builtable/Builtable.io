@@ -45,7 +45,10 @@ body{
   -o-background-size: cover;
 }
 
-.navbar.navbar-fixed-top.top-nav-collapse{
+.navbar.navbar-fixed-top.blog-header{
+  padding:0px;
+}
+.navbar.blog-header,.navbar.navbar-fixed-top.top-nav-collapse{
   background-color:#333333;
 }
 
@@ -109,7 +112,7 @@ ul.nav a.active {
   margin: 0;
 }
 #about p {
-  font-family: "Roboto";
+  font-family: 'Roboto Slab', serif;
   font-size: 1.2em;
   line-height: 1.7em;
   color: #ffffff;
@@ -181,7 +184,7 @@ text-decoration:none;
 }
 .eventscontent p{
   color: #fb8d62;
-  font-family: "Roboto";
+  font-family: 'Roboto Slab', serif;
   font-size: 1.2em;
   text-align: center;
   padding-bottom: 20%;
@@ -221,7 +224,7 @@ text-decoration:none;
 }
 
 #services p{
-  font-family: "Roboto";
+  font-family: 'Roboto Slab', serif;
 }
 
 #services2 p{
@@ -230,7 +233,7 @@ text-decoration:none;
 
 }
 #services2 h2{
-  font-family: "Roboto";
+  font-family: 'Roboto Slab', serif;
   font-size: 1em;
   line-height: 1.4em;
   color: #777777;
@@ -278,7 +281,7 @@ text-decoration:none;
 }
 
 #community p{
-  font-family: "Roboto";
+  font-family: 'Roboto Slab', serif;
   color: #333333;
   text-align: center;
   padding-bottom: 5%;
@@ -336,13 +339,13 @@ text-decoration:none;
 #contact p{
   color: #333333;
   text-align: left;
-  font-family: "Roboto";
+  font-family: 'Roboto Slab', serif;
 }
 
 #contact h2{
   color: #333333;
   text-align: left;
-  font-family: "Roboto";
+  font-family: 'Roboto Slab', serif;
   font-size: 1.3em;
 }
 
@@ -364,7 +367,7 @@ text-decoration:none;
     background-color: #ffffff;
     color: #394d60;
     border: 0px;
-    font-family: 'Roboto';
+    font-family: 'Roboto Slab', serif;
 }
 
 .buttonform {
@@ -387,7 +390,7 @@ margin-right:0px;
 
 .footer h1{
   color: #666666;
-  font-family: "Roboto";
+  font-family: 'Roboto Slab', serif;
   font-size: 0.8em;
   padding-top: 0;
   letter-spacing: 1px;

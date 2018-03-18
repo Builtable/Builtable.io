@@ -22,6 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: http://builtable.co # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Builtable 
+permalink: /:categories/:title:output_ext
 
 # Build settings
 markdown: kramdown

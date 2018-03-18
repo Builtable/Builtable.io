@@ -394,8 +394,9 @@
         color: #f14b1f; }
     .hackathons .thumbnail .caption p {
       text-align: left;
-      font-size: 16px;
-      color: #727171; }
+      font-size: 14px;
+      color: #727171;
+      font-family: 'Roboto Slab', serif; }
 
 .services-section.events {
   padding-top: 0px; }
@@ -413,3 +414,46 @@
     left: 15px; }
   .social-media-links {
     right: 15px; } }
+
+.blog-list {
+  font-family: 'Roboto Slab', serif;
+  padding-top: 80px;
+  padding-bottom: 48px;
+  background: url(img/whitebg.jpg);
+  height: auto;
+  overflow: auto; }
+  .blog-list .blog-main-title {
+    padding-bottom: 3%; }
+
+.blog.bg-img {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.blog-item h3 {
+  font-family: "noodle"; }
+
+.blog-item .date {
+  color: gray; }
+
+.blog-item .thumbnail .caption {
+  padding: 9px 15px; }
+
+.blog-item a, .blog-item a.thumbnail.active {
+  border: 1px solid #ddd;
+  padding: 0px;
+  border-radius: 0px;
+  text-decoration: none; }
+
+.blog-content {
+  font-family: 'Roboto Slab', serif; }
+  .blog-content h1 {
+    text-align: left; }
+  .blog-content .youtube-video {
+    width: 100% !important; }
+  .blog-content .date {
+    color: gray; }
+  .blog-content p {
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif; }

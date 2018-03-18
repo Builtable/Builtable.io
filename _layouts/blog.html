@@ -16,16 +16,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta name="description" content="Builtable - Coworking Office Space, Meeting Rooms, Private Rooms and Events space in Shaw Boulevard Mandaluyong City, Metro Manila, Philippines">
     <meta name="author" content="Builtable Coworking">
 
-    <!-- For Facebook -->
-<meta property="og:title" content="Builtable Coworking's Website" />
-<meta property="og:image" content="/assets/images/c3.jpg" />
-<meta property="og:description" content="Builtable - Coworking Office Space, Meeting Rooms, Private Rooms and Events space in Shaw Boulevard Mandaluyong City, Metro Manila, Philippines" />
 
-
-
-    <title>Builtable | Coworking Office Space in Philippines, Mandaluyong City</title>
+    <title>{{page.pageTitle}}</title>
 
     
+       <!-- For Facebook -->
+<meta property="og:title" content="{{page.pageTitle}}" />
+<meta property="og:image" content="{{page.imageUrl}}" />
+<meta property="og:description" content="{{page.previewText}}" />
+
+
 
     <!-- Bootstrap Core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -60,27 +60,34 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PD7V8GP"
 height="0" width="0" ></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+
 {% include navheader.html %}
-  
+<div class="blog bg-img" style="background-image: url(..{{page.imageUrl}})"></div>
+ <article class="container blog-content">
+     <div class="col-xs-12 col-md-11">
+            <h1>{{page.title}} </h1>
+           
+            <h4 class="date">{{page.date | date: "%B %d, %Y" }}</h4>
+               {{ content }}
+               {% include disqus-comment.html %}
 
-   {{ content }}
+     </div>
+    
+ </article>
+    
 
-   {% include floating-hotkeys.html %}
     {% include footer.html %}
 
     <!-- jQuery -->
     <script src="../js/jquery.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="../js/bootstrap.min.js"></script>
-
-    <!-- Scrolling Nav JavaScript -->
+        <!-- Scrolling Nav JavaScript -->
     <script src="../js/jquery.easing.min.js"></script>
     <script src="../js/scrolling-nav.js"></script>
 
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
     <script src="../js/main.js"></script>
-    <script src="../js/coworking.js"></script>
-    <script src="../js/learn.js"></script>
 </body>
 
 </html>
