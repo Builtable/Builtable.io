@@ -403,7 +403,20 @@ margin-right:0px;
   padding-top: 0;
   letter-spacing: 2px;
 }
-
+.mobile-only{
+  display:none !important;
+  visibility: hidden !important;
+}
+@media (max-width:768px) { 
+  .mobile-only{
+    display:block !important;
+    visibility:visible !important;
+  }
+  .desktop-only{
+    display:none !important;
+    visibility: hidden !important;
+  }
+}
 
 @media (min-width:320px) and (max-width:768px) {
   
