@@ -440,6 +440,7 @@ margin-right:0px;
            }
  }
           @media (max-width:320px){
+            
         .nav-justified>li a{
         font-size:10px; 
         }
