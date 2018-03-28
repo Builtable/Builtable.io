@@ -29,7 +29,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta property="og:image" content="/assets/images/c6.jpg" />
 <meta property="og:image" content="/assets/images/c7.jpg" />
 <meta property="og:image" content="/assets/images/c8.jpg" />
-<meta property="og:description" content="Builtable - Coworking Office Space, Meeting Rooms, Private Rooms and Events space in Shaw Boulevard Mandaluyong City, Metro Manila, Philippines" />
+<meta property="og:description" content="Builtable - Coworking Space,    Office Space, Meeting Rooms, Private Rooms and Events space in Shaw Boulevard Mandaluyong City, Metro Manila, Philippines" />
 
 
 
@@ -76,12 +76,24 @@ height="0" width="0" ></iframe></noscript>
 {% endif %}
 
 {% include navheader.html %}
-  
+
 
    {{ content }}
 
    {% include floating-hotkeys.html %}
     {% include footer.html %}
+
+
+    {% if site.url contains "builtable.co" %}
+    <script>
+        var Global_ENV = "production";
+</script>
+{% else %}
+
+<script>
+    var Global_ENV = "sandbox";
+</script>
+{% endif %}
 
     <!-- jQuery -->
     <script src="../js/jquery.js"></script>
@@ -89,12 +101,17 @@ height="0" width="0" ></iframe></noscript>
     <!-- Bootstrap Core JavaScript -->
     <script src="../js/bootstrap.min.js"></script>
 
+    <script src="https://www.paypalobjects.com/api/checkout.js"></script>
+    
     <!-- Scrolling Nav JavaScript -->
     <script src="../js/jquery.easing.min.js"></script>
     <script src="../js/scrolling-nav.js"></script>
 
     <script src="../js/main.js"></script>
+    
+    {% if page.url contains "/coworking/" %}
     <script src="../js/coworking.js"></script>
+    {% endif %}
     <script src="../js/learn.js"></script>
 </body>
 
