@@ -152,6 +152,18 @@ h5{
         padding:0px; 
         border-radius:0px;
        
+        .discount-price{
+          position: absolute;
+    background: #00B16A;
+    left: 16px;
+    top: 0px;
+    padding: 11px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+        }
+
         img{
             width:100%;
             &:hover{
@@ -164,6 +176,7 @@ h5{
         }
         h4{
             font-family: 'Roboto Slab', serif;
+            color:#3FC380;
             strike{
                 color:gray;
             }
@@ -197,6 +210,12 @@ h5{
     .close{
         color:#999;
     }
+}
+#afterPaymentModal{
+  .modal-body{
+    padding-bottom:50px;
+  }
+
 }
 .container.big-message{
 height:100%;

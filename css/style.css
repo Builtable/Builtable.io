@@ -63,6 +63,9 @@ h1 {
   text-align: center;
   padding-top: 2%;
 }
+h3{
+  font-family: 'Roboto Slab', serif;
+}
 
 #home h1 {
   color: #ffffff;

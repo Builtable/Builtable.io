@@ -60,7 +60,7 @@ $('#paymentModal').on('show.bs.modal', function (e) {
             $('#afterPaymentModal').modal({backdrop: 'static', keyboard: false});
             $('#afterPaymentModal').modal('show');
             $('#afterPaymentModal .modal-title').html('Payment Successful!');
-            $('#afterPaymentModal .modal-body .content').html("<p><strong>You will recieve an email from Paypal, please present that on the day of use!</strong><br><br> Transaction ID :"+payment.id+"<br>Name: "+name+"<br/>Total Amount: "+price+" </p>");
+            $('#afterPaymentModal .modal-body .content').html("<p><strong>In a few minutes, you will recieve an email from Paypal, please present that on the day of use!</strong><br><br> Transaction ID :"+payment.id+"<br>Name: "+name+"<br/>Total Amount: "+price+" </p>");
              });
             // window.location.href("/paymentsuccess?=name"+_payment.payer.payer_info['first_name']+"&")
         },

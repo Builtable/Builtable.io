@@ -253,7 +253,6 @@
     margin: 0 auto; }
     #coworking-carousel .caption h1 small {
       color: white; }
-  
   #coworking-carousel .caption a {
     background-color: #ff6633;
     font-family: "Noodle";
@@ -332,6 +331,16 @@
 #services .services-thumbnail {
   padding: 0px;
   border-radius: 0px; }
+  #services .services-thumbnail .discount-price {
+    position: absolute;
+    background: #00B16A;
+    left: 16px;
+    top: 0px;
+    padding: 11px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Roboto Slab', serif; }
   #services .services-thumbnail img {
     width: 100%; }
     #services .services-thumbnail img:hover {
@@ -340,7 +349,8 @@
     font-family: "Noodle";
     margin-top: 5px; }
   #services .services-thumbnail h4 {
-    font-family: 'Roboto Slab', serif; }
+    font-family: 'Roboto Slab', serif;
+    color: #3FC380; }
     #services .services-thumbnail h4 strike {
       color: gray; }
   #services .services-thumbnail a {
@@ -365,6 +375,9 @@
     border-radius: 0px; }
   #afterPaymentModal .close, #paymentModal .close {
     color: #999; }
+
+#afterPaymentModal .modal-body {
+  padding-bottom: 50px; }
 
 .container.big-message {
   height: 100%; }
