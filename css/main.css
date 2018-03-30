@@ -694,7 +694,8 @@ button {
     .hackathons .thumbnail .caption h3 {
       margin-top: 0px;
       margin-bottom: 2px;
-      text-align: left; }
+      text-align: left;
+      font-size: 16px; }
       .hackathons .thumbnail .caption h3 small {
         color: #f14b1f; }
     .hackathons .thumbnail .caption p {
@@ -762,5 +763,3 @@ button {
   .blog-content p {
     font-size: 16px;
     font-family: 'Roboto Slab', serif; }
-
-    
