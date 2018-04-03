@@ -97,6 +97,7 @@ ul.nav a.active {
 
 #about
 {
+  height:auto; 
   background: url("img/bg-about.jpg")  top center;
   background-color: #ff6633;
 }
