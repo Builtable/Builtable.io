@@ -379,6 +379,9 @@
 #afterPaymentModal .modal-body {
   padding-bottom: 50px; }
 
+.coworking-services {
+  height: auto !important; }
+
 .container.big-message {
   height: 100%; }
 
@@ -705,7 +708,8 @@ button {
       font-family: 'Roboto Slab', serif; }
 
 .services-section.events {
-  padding-top: 0px; }
+  padding-top: 0px;
+  height: auto; }
   .services-section.events h2 {
     font-family: "noodle"; }
 
