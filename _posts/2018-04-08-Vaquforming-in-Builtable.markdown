@@ -6,7 +6,6 @@ date:   2018-03-17 15:33:52 +0800
 categories: blog
 imageUrl: /assets/images/blogs/Vaquform/vaquform-chocolate-molds_1.jpg
 imageUrlAlt: chocolate mold workshop
-previewText: "Have you ever thought of giving someone customized chocolates? Well, John Tan, inventor of Vaquform, can show you how! With just the use of clay, plastic sheets (food grade) and vacuum forming..."
 ---
 
 

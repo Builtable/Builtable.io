@@ -6,11 +6,10 @@ date:   2018-04-08 15:23:52 +0800
 categories: blog
 imageUrl: /assets/images/blogs/gcash/cashless-society.jpg
 imageUrlAlt: cashless system in the Philippines
-previewText: "Have you ever went to Builtable to avail of their services but forgot to bring your wallet? Or have you ever experienced that you’re unable to pay for the early bird promo rate of a workshop you want..."
 ---
 
 
-Have you ever went to your favorite store to avail of their services but forgot to bring your wallet? Or have you ever experienced that you’re unable to pay for the early bird promo rate of a workshop you want to sign up for in time because you don’t have the time to go to the bank to deposit? Worry no more! This is the cashless generation through GCash! You can now use your mobile phone as an e-wallet!
+"Ang malas! Naiwan ko ulit wallet ko!" - Do you always forget your wallet at home? Don't you get annoyed when the only payment schemes of an establishment is through bank deposit or cash? Worry no more! This is the cashless generation through GCash! You can now use your mobile phone as an e-wallet!
 <br>
 <br>
 A GCash sticker on a door signifies that this a cashless establishment.
