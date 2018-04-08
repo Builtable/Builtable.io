@@ -28,14 +28,18 @@ To know more about Vaquform, visit [vaquform.com][vaquform-url].
  
 This workshop is actually one of the workshops we do here in Builtable Coworking. Want to learn something new on weekends? For more of our workshops follow our [Facebook Events page][builtable-events]!
 
+<br>
+<br><br>
+<br>
+<small>
+<i>
+Builtable Coworking offers [office spaces][coworking-url], [coworking spaces] [coworking-url], comaking and events space in Mandaluyong City Manila, Philippines!
+</i>
+</small>
 
 
-[vaquform-url]: https://jekyllrb.com/docs/home
+[coworking-url]:https://builtable.co/coworking#services
+[vaquform-url]: https://www.vaquform.com/
 [builtable-events]: https://www.facebook.com/builtable/events
 
 
-<small>
-<i>
-Builtable Coworking offers office spaces, coworking, comaking and events space in Mandaluyong City Manila, Philippines!
-</i>
-</small>
