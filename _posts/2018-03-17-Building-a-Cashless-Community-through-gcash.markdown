@@ -40,7 +40,7 @@ It only takes 4 easy steps for you to purchase:
 Once these are done, you’ll be receiving an SMS that the payment is complete.<br> Isn’t it so cool and convenient??
 <br>
 <br>
-Here in Builtable, we believe that through this cashless system ANYONE can purchase digitally. Whether you have or don't have a credit card, just through your mobile phone, you have the power to purchase.
+Here in Builtable, we believe that through this cashless system ANYONE can purchase digitally. Whether you have or don't have a credit card, just through your mobile phone, you have the power to purchase. Ultimately, it's another platform that levels the playing field for small businesses and consumers.
 <br>
 <br>
 Now, what are you waiting for? Let's turn this country into a cashless community! Be part of this by visiting: [https://www.mynt.xyz/][mynt-url] 
