@@ -43,6 +43,11 @@ Once these are done, you’ll be receiving an SMS that the payment is complete.<
 Here in Builtable, we believe that through this cashless system ANYONE can purchase digitally. Whether you have or don't have a credit card, just through your mobile phone, you have the power to purchase. Ultimately, it's another platform that levels the playing field for small businesses and consumers.
 <br>
 <br>
+But wait, there's more! Until December 2018, all transactions using GCash will have a 10% cashback! 10%!!
+<br>
+For example, if you will avail our day rate coworking space, from 300 PHP it becomes 270 PHP!
+<br> 
+<br>
 Now, what are you waiting for? Let's turn this country into a cashless community! Be part of this by visiting: [https://www.mynt.xyz/][mynt-url] 
 <br>
 <br>
