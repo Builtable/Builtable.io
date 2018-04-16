@@ -1,13 +1,22 @@
 (function () { 
 
   var _amount;
-
+var _item;
 
 
 $('#paymentModal').on('show.bs.modal', function (e) {
- _amount= { total:$(e.relatedTarget).attr("data-price"), currency: 'PHP' };
+ var productName = $(e.relatedTarget).attr("data-product");
+ var price = $(e.relatedTarget).attr("data-price");
+    _amount= { total:price, currency: 'PHP'};
+_item = [{
+    name: productName,
+    description: productName,
+    quantity: '1',
+    price: price,
+    currency: 'PHP'
+    }]
  
-    $("#paymentModal .modal-title").html("Payment Confirmation for a <strong>" + $(e.relatedTarget).attr("data-product")+"</strong>");
+    $("#paymentModal .modal-title").html("Payment Confirmation for a <strong>" +productName+"</strong>");
 })
 
 
@@ -39,10 +48,16 @@ $('#paymentModal').on('show.bs.modal', function (e) {
                 payment: {
                     transactions: [
                         {
-                            amount: _amount
+                            amount: _amount,
+                            item_list: {
+                                items: _item
+                            }
                         }
+                        
+                        
                     ]
-                }
+                   }
+                   
             });
         },
 
