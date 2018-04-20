@@ -1,17 +1,25 @@
 (function () { 
 
-  var _amount;
+var _amount;
 var _item;
-
+var _qty=1; 
 
 $('#paymentModal').on('show.bs.modal', function (e) {
  var productName = $(e.relatedTarget).attr("data-product");
  var price = $(e.relatedTarget).attr("data-price");
-    _amount= { total:price, currency: 'PHP'};
+
+
+ $("#paymentModal input[type='number']").blur(function(){
+    _item[0].quantity =$("#paymentModal input[type='number']").val();
+    _amount.total = $("#paymentModal input[type='number']").val() * price;
+   
+})
+
+_amount= { total:price, currency: 'PHP'};
 _item = [{
     name: productName,
     description: productName,
-    quantity: '1',
+    quantity:_qty,
     price: price,
     currency: 'PHP'
     }]
@@ -19,6 +27,9 @@ _item = [{
     $("#paymentModal .modal-title").html("Payment Confirmation for a <strong>" +productName+"</strong>");
 })
 
+$('#paymentModal').on('hidden.bs.modal', function (e) {
+    $("#paymentModal input[type='number']").val(1);
+  })
 
 
 
@@ -69,7 +80,7 @@ _item = [{
             //     // You can now show a confirmation message to the customer
 
             $('#paymentModal').modal('hide');
-            
+            $("#paymentModal input[type='number']").val(1);
             var name  = payment.payer.payer_info['first_name'] +" " + payment.payer.payer_info['last_name'];
             var price = payment.transactions[0].amount["total"] +" " + payment.transactions[0].amount["currency"];
             $('#afterPaymentModal').modal({backdrop: 'static', keyboard: false});
