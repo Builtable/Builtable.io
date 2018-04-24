@@ -5,13 +5,12 @@
   padding-top: 0px; }
   .learn-intro-section video {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    right: 0;
+    bottom: 0;
     min-width: 100%;
     min-height: 100%;
     width: auto;
-    height: auto;
-    transform: translateX(-50%) translateY(-50%); }
+    height: auto; }
   .learn-intro-section .video-overlay {
     position: absolute;
     background-color: #3e3e3e;
@@ -68,7 +67,6 @@
   padding-top: 3%;
   padding-bottom: 6%; }
   .people-section h3 {
-    font-weight: bold;
     text-align: center;
     margin-bottom: 40px;
     font-family: "Noodle";
@@ -149,6 +147,72 @@
 .modal .close {
   opacity: 1;
   color: white; }
+
+#workshops {
+  background: url(img/whitebg.jpg); }
+  #workshops h3 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: "Noodle";
+    font-size: 3em; }
+  #workshops .workshop-item {
+    font-family: 'Roboto Slab', serif;
+    border-radius: 0px;
+    border-color: gray; }
+    #workshops .workshop-item:hover {
+      border-color: gray; }
+    #workshops .workshop-item .btn {
+      font-size: 20px;
+      background-color: #ff6633;
+      border: none;
+      border-radius: 0px;
+      font-family: "Noodle";
+      display: block;
+      color: white;
+      margin-top: 12px; }
+    #workshops .workshop-item span.promo {
+      position: absolute;
+      background: #00B16A;
+      left: 16px;
+      top: 0px;
+      padding: 11px;
+      font-size: 12px;
+      font-weight: bold;
+      color: white;
+      font-family: 'Roboto Slab', serif; }
+    #workshops .workshop-item h3 {
+      font-size: 27px;
+      margin-bottom: 10px;
+      margin-top: 15px;
+      text-align: left; }
+    #workshops .workshop-item h4 {
+      text-align: left; }
+    #workshops .workshop-item p {
+      margin-bottom: 5px; }
+    #workshops .workshop-item .price {
+      color: #00B16A;
+      text-align: left;
+      margin-bottom: 5px; }
+      #workshops .workshop-item .price strike {
+        color: gray; }
+    #workshops .workshop-item .thumbnail {
+      padding: 0px;
+      text-decoration: none;
+      color: transparent;
+      border-radius: 0px; }
+      #workshops .workshop-item .thumbnail .caption {
+        padding: 10px 15px; }
+      #workshops .workshop-item .thumbnail:hover, #workshops .workshop-item .thumbnail:focus {
+        text-decoration: none;
+        border: 1px solid #ddd; }
+
+.workshop-page {
+  background-image: url(../assets/images/workshops/mold-making.jpg);
+  background-position: center;
+  width: 100%;
+  height: 70%;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 /* Firefox < 16 */
 @-moz-keyframes fadein {
@@ -357,7 +421,8 @@
     font-size: 20px;
     background-color: #ff6633;
     border: none;
-    border-radius: 0px; }
+    border-radius: 0px;
+    color: white; }
   #services .services-thumbnail p {
     font-size: 11px; }
 
@@ -365,7 +430,9 @@
   font-family: 'Roboto Slab', serif; }
   #afterPaymentModal .modal-dialog, #paymentModal .modal-dialog {
     width: 400px;
-    margin-top: 100px; }
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto; }
   #afterPaymentModal .modal-content, #paymentModal .modal-content {
     background: white;
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
@@ -766,5 +833,55 @@ button {
     color: gray; }
   .blog-content p {
     font-size: 16px;
+    font-family: 'Roboto Slab', serif; }
+
+.workshop-title {
+  background-color: #5a5a5a;
+  padding: 1px;
+  position: relative;
+  padding-bottom: 15px; }
+  .workshop-title h1 {
+    padding-top: 0px;
+    color: white;
+    text-align: left; }
+  .workshop-title h4 {
+    color: white;
+    font-family: 'Roboto Slab', serif; }
+
+.workshop-actions {
+  display: inline-block;
+  position: absolute;
+  right: 18px;
+  top: 32%; }
+  .workshop-actions a {
+    background-color: #fc4d1e;
+    color: white;
+    border-radius: 0px;
+    border-color: transparent;
+    padding: 12px 25px;
     font-family: 'Roboto Slab', serif;
-   }
+    font-size: 16px; }
+    .workshop-actions a:hover {
+      color: white; }
+
+.workshop-content {
+  margin-top: 30px;
+  font-family: 'Roboto Slab', serif;
+  margin-bottom: 42px; }
+
+#bankDepositModal {
+  font-family: 'Roboto Slab', serif; }
+  #bankDepositModal .modal-dialog {
+    background-color: white; }
+  #bankDepositModal .close {
+    color: gray; }
+  #bankDepositModal .btn-primary {
+    width: 100%;
+    display: block;
+    margin: 0 auto; }
+
+@media (max-width: 1004px) {
+  .workshop-actions {
+    right: 0px;
+    top: 0px;
+    position: relative; } }

@@ -40,6 +40,7 @@ font-style: normal;}
 
 body{
   overflow-x: hidden;
+  padding-right:0px !important;
 }
 #home {
   background: url("img/bg.jpg") no-repeat top center fixed;

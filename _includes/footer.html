@@ -4,3 +4,14 @@
            
         </div> 
     </div>
+
+    {% if site.url contains "builtable.co" %}
+    <script>
+        var Global_ENV = "production";
+</script>
+{% else %}
+
+<script>
+    var Global_ENV = "sandbox";
+</script>
+{% endif %} 

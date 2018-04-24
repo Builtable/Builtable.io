@@ -1,0 +1,60 @@
+.workshop-title{
+    background-color: #5a5a5a;
+    padding:1px;
+    position:relative;
+    padding-bottom:15px;
+    h1{
+padding-top:0px;
+color:white;
+text-align:left;
+    }
+    h4{
+        color:white;
+        
+        font-family: 'Roboto Slab', serif;
+    }
+}
+.workshop-actions{
+    display: inline-block;
+    position: absolute;
+    right: 18px;
+    top: 32%;
+    a{
+        background-color: #fc4d1e;
+        color: white;
+        border-radius: 0px;
+        border-color: transparent;
+        padding: 12px 25px;
+        font-family: 'Roboto Slab', serif;
+        font-size:16px;
+        &:hover{
+            color:white;
+        }
+    }
+}
+.workshop-content{
+    margin-top:30px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 42px;        
+}
+#bankDepositModal{
+    font-family: 'Roboto Slab', serif;
+.modal-dialog{
+    background-color:white;
+}
+.close{
+    color:gray;
+}
+.btn-primary{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+}
+@media (max-width:1004px) {
+    .workshop-actions{
+        right:0px;
+        top:0px;
+        position: relative;
+}
+}

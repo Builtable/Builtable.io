@@ -56,7 +56,7 @@ layout: main
                 <div class="col-xs-12 caption">
                     <h1>Learn something new this weekend!</h1>
                     
-                    <a href="https://www.facebook.com/pg/builtable/events/" class="btn page-scroll"> See our workshops</a>
+                    <a href="#workshops" class="btn page-scroll"> See our workshops</a>
                 </div>
             </div>
         </div>
@@ -107,6 +107,42 @@ layout: main
         </div>
     </section>
 
+    <section id="workshops">
+<div class="container">
+    <div class="row">
+        <h3>Our workshops!</h3>
+
+        <div class="col-lg-12 ">
+          {% for post in site.categories["workshops"] %}
+            <div class="col-sm-12 col-md-4 workshop-item">
+                <div href="{{post.url}}" class="thumbnail">
+                    {% if post.earlyPrice != "" %}
+                     <span class="promo">Early Bird Rate!</span>
+                     {% endif %}
+                  <img src="{{post.imageUrl}}" alt="{{page.imageUrlAlt}}">
+                  <div class="caption">
+                    <h3>{{ post.title}}</h3>
+                    {% if post.earlyPrice != ""  %}
+                    <h4 class="price">{{post.earlyPrice}} PHP <strike>{{post.price}} PHP</strike></h4>
+                    {%else%}
+                    <h4 class="price">{{post.price}} PHP</h4>
+                    {% endif %}
+                    <p class="date">{{ post.eventStartDate | date: "%B %d, %Y - %r" }}</p>
+                    <p>{{post.content | truncate: 195}}</p>
+                    <p><a  href="{{post.url}}" class="btn">Tickets</a></p>
+
+
+                </div>
+            </div>
+              </div>
+              {% endfor %}
+            
+        </div>
+        
+    </div>
+  
+</div>
+    </section>
 
  <!-- Community Section -->
  <section id="community" class="community-section">

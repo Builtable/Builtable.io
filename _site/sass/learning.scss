@@ -7,14 +7,13 @@
 padding-top:0px;
 video{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    right: 0;
+    bottom: 0;
     min-width: 100%;
     min-height: 100%;
     width: auto;
     height: auto;
-    transform: translateX(-50%) translateY(-50%);
-}
+    }
 .video-overlay{
     position: absolute;
     background-color: #3e3e3e;
@@ -77,8 +76,7 @@ video{
        padding-top:3%;
     padding-bottom: 6%;
      h3{
-        font-weight: bold;
-        text-align:center;
+         text-align:center;
         margin-bottom:40px;
         font-family:"Noodle";
         font-size: 3em;
@@ -179,6 +177,93 @@ h5{
     color: white;
 }
 }
+#workshops{
+    background: url(img/whitebg.jpg);
+    
+    h3{
+        text-align: center;
+        margin-bottom: 40px;
+        font-family: "Noodle";
+        font-size: 3em;
+    
+    }
+    .workshop-item{
+        font-family: 'Roboto Slab', serif;
+        border-radius:0px;
+         border-color:gray;
+         &:hover{
+             border-color:gray;
+         }
+      
+         .btn{
+            font-size: 20px;
+            background-color: #ff6633;
+            border: none;
+            border-radius: 0px;
+            font-family:"Noodle";
+            display:block;
+            color: white;
+            margin-top: 12px;
+         }
+span.promo{
+    position: absolute;
+    background: #00B16A;
+    left: 16px;
+    top: 0px;
+    padding: 11px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+h3{
+    font-size: 27px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    text-align:left;
+}
+h4{
+    text-align:left; 
+}
+p{
+    margin-bottom:5px;
+}
+.price{
+    color:#00B16A;
+    text-align:left;
+    margin-bottom:5px;
+    strike{
+        color:gray;
+
+    }
+}
+.thumbnail{
+    padding:0px;
+    text-decoration: none;
+    color:transparent;
+    border-radius: 0px;
+    
+    .caption{
+        padding: 10px 15px;
+    }
+
+    &:hover,&:focus{
+        text-decoration:none;
+        border: 1px solid #ddd;
+    }
+}
+    }
+}
+
+.workshop-page{
+    background-image: url(../assets/images/workshops/mold-making.jpg);
+    background-position: center;
+    width: 100%;
+    height: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 /* Firefox < 16 */
 @-moz-keyframes fadein {
