@@ -123,11 +123,11 @@ height="0" width="0" ></iframe></noscript>
        <h4 class="date">{{ page.eventStartDate | date: "%B %d, %Y - %I:%M %p" }} to {{page.eventEndDate | date: "%I:%M %p" }}</h4>
        <div class="workshop-actions">
          
-            {% if post.earlyPrice != "" %}
-            <a class="btn" data-toggle="modal" data-target="#paymentModal" data-product="{{page.title}}" data-price="{{page.price}}">Pay Online</a>
+            {% if post.earlyPrice != '' %}
+            <a class="btn" data-toggle="modal" data-target="#paymentModal" data-product="{{page.title}}" data-price="{{page.earlyPrice}}">Pay Online</a>
         
            {% else %}
-           <a class="btn" data-toggle="modal" data-target="#paymentModal" data-product="{{page.title}}" data-price="{{page.earlyPrice}}">Pay Online</a>
+           <a class="btn" data-toggle="modal" data-target="#paymentModal" data-product="{{page.title}}" data-price="{{page.Price}}">Pay Online</a>
          
            {% endif %}
             <a class="btn" data-toggle="modal" data-target="#bankDepositModal">Bank Deposit</a>
