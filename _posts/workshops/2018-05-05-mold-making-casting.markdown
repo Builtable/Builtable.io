@@ -9,11 +9,11 @@ earlyPrice: "2800"
 price: "3000"
 categories: workshops
 imageUrl: /assets/images/workshops/mold-making.jpg
-imageUrlAlt: chocolate mold workshop
+imageUrlAlt: Avenger's infinity war gaunlet.
 ---
 
 
-We would like to invite you to embark on the journey of "cloning" your own infinity gauntlet. This is a Sculpt in clay workshop! Use molds to create objects in plaster of paris & resin. Get the chance to produce your own novelty toy for personal use or starting your own toy business.
+Still can't get over with Avenger's Infinity War? We would like to invite you to embark on the journey of "cloning" your own infinity gauntlet. This is a Sculpt in clay workshop! Use molds to create objects in plaster of paris & resin. Get the chance to produce your own novelty toy for personal use or starting your own toy business.
 
 
 <strong>PROGRAM: </strong>
