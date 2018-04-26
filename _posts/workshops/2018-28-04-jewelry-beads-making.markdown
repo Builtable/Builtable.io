@@ -18,6 +18,8 @@ Do you have an upcoming party and would like to accessorize with your own style?
 Learn basic jewelry making techniques in order to create and take home 5 pieces of Jewelry Beads!
 This workshop will be lead by Koree Teng!
 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fegPdtQ_-dY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 **KIT INCLUSIONS**
 
 Beads/Strings/Metal Chains/Wires/Nose Pliers/Wire Cutter Pliers
@@ -67,7 +69,7 @@ Beads/Strings/Metal Chains/Wires/Nose Pliers/Wire Cutter Pliers
 
 - Working with jump rings and split rings
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fegPdtQ_-dY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 
 
 

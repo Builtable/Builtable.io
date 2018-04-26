@@ -14,9 +14,9 @@ imageUrlAlt: Resin Jewelry Workshop
 
 Basic or beginners, this is a **2-day** Workshop on how to create jewelry using magazine cutouts, pictures and even small objects such as cellphone charms by glazing them in resin! You’ll take home a set of artistic pieces as unique as yourself!You may even make a portrait pendant by bringing a picture that you would want to embed in resin!
 
-
 Workshop will be conducted by
 Marita Alcazaren De Leon of Handmade Lemonade
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YPIsnCGOlxA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ** STRICTLY should be in the event by 1:30 PM the LATEST.
 
