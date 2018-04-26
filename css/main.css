@@ -884,5 +884,6 @@ button {
   .workshop-actions {
     right: 0px;
     top: 0px;
-    position: relative; } }
-    
+    position: relative; }
+  .workshop-content img {
+    width: 100%; } }

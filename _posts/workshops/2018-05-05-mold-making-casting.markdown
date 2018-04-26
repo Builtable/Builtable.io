@@ -13,7 +13,7 @@ imageUrlAlt: chocolate mold workshop
 ---
 
 
-We would like to invite you to embark on the journey of "cloning" your own infinity gauntlet. Sculpt in clay and use molds to create objects in plaster of paris & resin. Get the chance to produce your own novelty toy for personal use or starting your own toy business.
+We would like to invite you to embark on the journey of "cloning" your own infinity gauntlet. This is a Sculpt in clay workshop! Use molds to create objects in plaster of paris & resin. Get the chance to produce your own novelty toy for personal use or starting your own toy business.
 
 
 <strong>PROGRAM: </strong>
@@ -53,3 +53,22 @@ Resin, Hardener, Brush, Mask, Gloves, Mixing Cup
 
 Use of:
 Basic Tools, Templates
+
+##### Some photos of the process:
+
+![alt text](../../assets/images/workshops/mold-making/silicon-mold.jpg "silicon mold")
+<br>
+<br>
+![alt text](../../assets/images/workshops/mold-making/plaster-paris.jpg "plaster of paris")
+<br>
+<br>
+![alt text](../../assets/images/workshops/mold-making/silicon.jpg "Silicon Mold")
+<br>
+<br>
+![alt text](../../assets/images/workshops/mold-making/finish-product.jpg "infinity Gauntlet")
+
+
+<br>
+<br>
+<br>
+*Builtable Coworking provides maker workshops in Shaw Boulevard, Mandaluyong city Philippines* 
