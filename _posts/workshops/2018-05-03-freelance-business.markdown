@@ -13,9 +13,7 @@ imageUrlAlt: Freelancing Career
 ---
 
 
-Jitendra Vaswani goes to Builtable!A talk by bloggersidea.com
-Learn the tips and tricks to become a selfmade millionaire businessman and work from any part of the world.
-
+Jitendra Vaswani goes to Builtable! A talk by bloggersidea.com, Learn the tips and tricks to become a selfmade millionaire businessman and work from any part of the world.
 
 **SPEAKER DETAILS:**
 
