@@ -811,6 +811,9 @@ button {
       .other-prices-events .dropdown-menu li .discounted {
         color: #00B16A; }
 
+#events-others {
+  color: #00B16A; }
+
 @media (max-width: 720px) {
   .contact-float {
     left: 15px; }
