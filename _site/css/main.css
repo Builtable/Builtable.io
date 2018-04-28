@@ -395,6 +395,14 @@
 #services .services-thumbnail {
   padding: 0px;
   border-radius: 0px; }
+  #services .services-thumbnail .caption .other-prices {
+    position: relative;
+    height: auto; }
+    #services .services-thumbnail .caption .other-prices .dropdown-menu {
+      width: 100%; }
+      #services .services-thumbnail .caption .other-prices .dropdown-menu li {
+        padding: 10px;
+        text-align: center; }
   #services .services-thumbnail .discount-price {
     position: absolute;
     background: #00B16A;

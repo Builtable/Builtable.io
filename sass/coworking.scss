@@ -151,7 +151,18 @@ h5{
     .services-thumbnail{
         padding:0px; 
         border-radius:0px;
-       
+       .caption .other-prices{
+         position:relative;
+         height:auto;
+         .dropdown-menu{
+           width:100%;
+           li{
+             padding:10px;
+             font-family: 'Roboto Slab', serif;
+             text-align:center;
+           }
+         }
+       }
         .discount-price{
           position: absolute;
     background: #00B16A;
@@ -226,6 +237,9 @@ h5{
 .container.big-message{
 height:100%;
 }
+
+
+
 @-webkit-keyframes fade {
     0% {opacity: 0;}
     20% {opacity: 1;}

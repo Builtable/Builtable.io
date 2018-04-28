@@ -439,7 +439,8 @@ margin-right:0px;
 
          }
               .nav-justified>li img{
-              width:24px;
+              width:16px;
+              position:absolute;
                 
          }
              .nav-justified>li a{
@@ -452,6 +453,6 @@ margin-right:0px;
           @media (max-width:320px){
             
         .nav-justified>li a{
-        font-size:10px; 
+        font-size:9px; 
         }
           }
