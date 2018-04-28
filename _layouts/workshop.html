@@ -119,11 +119,11 @@ height="0" width="0" ></iframe></noscript>
 <img src="{{page.imageUrl}}" class="img-responsive mobile-only"/>
 <div class="workshop-title">
     <div class="container">
-    <h1>{{page.title}} </h1>
+    <h1>{{page.title}} <span>₱ {{page.earlyPrice}}</span></h1>
        <h4 class="date">{{ page.eventStartDate | date: "%B %d, %Y - %I:%M %p" }} to {{page.eventEndDate | date: "%I:%M %p" }}</h4>
        <div class="workshop-actions">
          
-            {% if post.earlyPrice != '' %}
+            {% if page.earlyPrice != '' %}
             <a class="btn" data-toggle="modal" data-target="#paymentModal" data-product="{{page.title}}" data-price="{{page.earlyPrice}}">Pay Online</a>
         
            {% else %}

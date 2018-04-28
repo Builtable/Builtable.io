@@ -844,6 +844,9 @@ button {
     padding-top: 0px;
     color: white;
     text-align: left; }
+    .workshop-title h1 span {
+      background-color: #00B16A;
+      padding: 0px 20px; }
   .workshop-title h4 {
     color: white;
     font-family: 'Roboto Slab', serif; }
@@ -885,5 +888,5 @@ button {
     right: 0px;
     top: 0px;
     position: relative; }
-  .workshop-content img {
-    width: 100%; } }
+  .workshop-content img, .workshop-content iframe {
+    width: 100% !important; } }

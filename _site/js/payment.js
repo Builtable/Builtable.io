@@ -6,7 +6,9 @@ var _qty=1;
 
 $('#paymentModal').on('show.bs.modal', function (e) {
  var productName = $(e.relatedTarget).attr("data-product");
- var price = $(e.relatedTarget).attr("data-price");
+ var paypalCharge = (($(e.relatedTarget).attr("data-price")*0.029)+15).toFixed(2) ;
+ var price = parseFloat($(e.relatedTarget).attr("data-price"))+ parseFloat(paypalCharge);
+ 
 
 
  $("#paymentModal input[type='number']").blur(function(){
@@ -25,6 +27,7 @@ _item = [{
     }]
  
     $("#paymentModal .modal-title").html("Payment Confirmation for a <strong>" +productName+"</strong>");
+    $(".paypal-charges").html("<i>An additional of <strong>₱" +paypalCharge+"</strong> for Paypal Charges.</i>");
 })
 
 $('#paymentModal').on('hidden.bs.modal', function (e) {

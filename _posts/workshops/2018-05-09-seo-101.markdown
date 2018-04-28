@@ -1,0 +1,37 @@
+---
+layout: workshop
+pageTitle: "SEO 101 for Bloggers"
+title:  "SEO 101 for Bloggers"
+date:   2018-03-17 15:33:52 +0800
+eventStartDate: 2018-05-09 18:30:00 +0800
+eventEndDate: 2018-05-09 21:30:00 +0800
+earlyPrice: "700"
+price: "900"
+categories: workshops
+imageUrl: /assets/images/workshops/seo-101/main.jpg
+imageUrlAlt: Basics of SEO.
+---
+
+
+SEO 101 by Sean Si goes to Builtable!
+
+Search Traffic is the best source of perpetual, and relevant traffic to your blog. Learn how to capitalize on your blog's searchability with Sean Si - a world-renowned trainer and specialist in the SEO industry today.
+
+**Why join this seminar?**
+
+Sean Si is a renowned speaker and SEO specialist. He founded and built SEO Hacker, a digital marketing company increasing the online visibility of brands like Lipton, Jaguar, The Generics Pharmacy, Toyota, Fukuda, Mapua, and Mineski.
+
+His SEO consulting rate goes up to $500 per hour BUT he is doing this seminar at a very affordable rate for the benefit of up-and-coming bloggers and entrepreneurs who want to increase their search traffic.
+
+**What you will get out of it:**
+
+More traffic for your blog through higher rankings for your target keywords.
+Make every post you publish rank in Google.
+
+
+<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fspkpho%2Fvideos%2F516982338676055%2F&show_text=0&width=560" width="560" height="373" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+
+<br>
+<br>
+<br>
+*Builtable Coworking provides maker workshops in Shaw Boulevard, Mandaluyong city Philippines* 
