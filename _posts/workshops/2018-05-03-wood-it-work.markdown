@@ -34,7 +34,7 @@ Let's get ready to get our hands dirty! Builtable presents, Wood it Work - wood 
 - 16:00 - 17:00 Assembly and Painting
 - 17:00 - 17:30 Concluding and Awarding Remarks
 
-
+![wooden lamp](/assets/images/workshops/wood-it-work/wooden-lamp.jpg "wooden lamp")
 
 <br>
 <br>
