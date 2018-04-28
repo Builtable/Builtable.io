@@ -40,6 +40,27 @@
     left: 40px;
     z-index: 99999;
 }
+.other-prices-events{
+    position:relative;
+    height:auto;
+    margin: 0 auto;
+    width: 50%;
+    .dropdown-menu{
+        width:100%;
+        
+        li{
+          padding:10px;
+          font-family: 'Roboto Slab', serif;
+          text-align:center;
+          strike{
+              color:gray;
+          }
+          .discounted{
+              color:#00B16A;
+          }
+        }    
+    }
+}
 
 @media (max-width:720px) {
     .contact-float{
@@ -48,4 +69,6 @@
     .social-media-links{
         right:15px;
     }
+    .other-prices-events{
+        width: 100%;}
 }

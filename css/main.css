@@ -402,6 +402,7 @@
       width: 100%; }
       #services .services-thumbnail .caption .other-prices .dropdown-menu li {
         padding: 10px;
+        font-family: 'Roboto Slab', serif;
         text-align: center; }
   #services .services-thumbnail .discount-price {
     position: absolute;
@@ -794,11 +795,29 @@ button {
   left: 40px;
   z-index: 99999; }
 
+.other-prices-events {
+  position: relative;
+  height: auto;
+  margin: 0 auto;
+  width: 50%; }
+  .other-prices-events .dropdown-menu {
+    width: 100%; }
+    .other-prices-events .dropdown-menu li {
+      padding: 10px;
+      font-family: 'Roboto Slab', serif;
+      text-align: center; }
+      .other-prices-events .dropdown-menu li strike {
+        color: gray; }
+      .other-prices-events .dropdown-menu li .discounted {
+        color: #00B16A; }
+
 @media (max-width: 720px) {
   .contact-float {
     left: 15px; }
   .social-media-links {
-    right: 15px; } }
+    right: 15px; }
+  .other-prices-events {
+    width: 100%; } }
 
 .blog-list {
   font-family: 'Roboto Slab', serif;
