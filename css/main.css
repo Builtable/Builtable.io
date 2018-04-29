@@ -397,7 +397,8 @@
   border-radius: 0px; }
   #services .services-thumbnail .caption .other-prices {
     position: relative;
-    height: auto; }
+    height: auto;
+    cursor: pointer; }
     #services .services-thumbnail .caption .other-prices .dropdown-menu {
       width: 100%; }
       #services .services-thumbnail .caption .other-prices .dropdown-menu li {
@@ -799,7 +800,8 @@ button {
   position: relative;
   height: auto;
   margin: 0 auto;
-  width: 50%; }
+  width: 20%;
+  cursor: pointer; }
   .other-prices-events .dropdown-menu {
     width: 100%; }
     .other-prices-events .dropdown-menu li {
@@ -812,7 +814,10 @@ button {
         color: #00B16A; }
 
 #events-others {
-  color: #00B16A; }
+  background-color: #ff6633;
+  color: #333333;
+  cursor: pointer;
+  padding: 10px; }
 
 @media (max-width: 720px) {
   .contact-float {

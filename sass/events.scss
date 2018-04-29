@@ -27,6 +27,7 @@
         }
     }
 }
+
 .services-section.events{
     padding-top:0px;
     height:auto;
@@ -44,7 +45,8 @@
     position:relative;
     height:auto;
     margin: 0 auto;
-    width: 50%;
+    width: 20%;
+    cursor:pointer;
     .dropdown-menu{
         width:100%;
         
@@ -62,7 +64,10 @@
     }
 }
 #events-others{
-    color:#00B16A;
+    background-color:#ff6633;
+    color: #333333;
+    cursor:pointer;
+    padding:10px; 
 }
 
 @media (max-width:720px) {

@@ -18,6 +18,10 @@ font-style: normal;}
   color:black;
   
 }
+a,p{
+  font-family: 'Roboto Slab', serif;
+
+}
 
 @media (max-width:720px) {
   .contact-float{
