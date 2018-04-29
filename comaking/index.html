@@ -113,7 +113,7 @@ layout: main
         <h3>Our workshops!</h3>
 
         <div class="col-lg-12 ">
-          {% for post in site.categories["workshops"] %}
+          {% for post in site.categories["workshops"] reversed %}
             <div class="col-sm-12 col-md-4 workshop-item">
                 <div href="{{post.url}}" class="thumbnail">
                     {% if post.earlyPrice != "" %}
@@ -128,7 +128,7 @@ layout: main
                     <h4 class="price">{{post.price}} PHP</h4>
                     {% endif %}
                     <p class="date">{{ post.eventStartDate | date: "%B %d, %Y - %r" }}</p>
-                    <p>{{post.content | truncate: 180}}</p>
+                    <p>{{post.content | truncate: 170}}</p>
                     <p><a  href="{{post.url}}" class="btn">Tickets</a></p>
 
 
