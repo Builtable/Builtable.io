@@ -61,6 +61,13 @@ Skills Learned
 - DISTRIBUTION OF CERTIFICATES
 - CLASS PHOTO
 
+Sample output of the workshop:
+
+![handmade leathercraft](/assets/images/workshops/travel-essentials/travel-essential-1jpg.jpg "handmade leathercraft")
+
+![handmade leathercraft](/assets/images/workshops/travel-essentials/travel-essential-2.jpg "handmade leathercraft")
+
+![handmade leathercraft](/assets/images/workshops/travel-essentials/travel-essential-3.jpg "handmade leathercraft")
 <br>
 <br>
 <br>
