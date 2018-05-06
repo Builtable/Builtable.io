@@ -10,11 +10,9 @@ $('#paymentModal').on('show.bs.modal', function (e) {
  var price = parseFloat($(e.relatedTarget).attr("data-price"))+ parseFloat(paypalCharge);
  
 
-
  $("#paymentModal input[type='number']").blur(function(){
     _item[0].quantity =$("#paymentModal input[type='number']").val();
-    _amount.total = $("#paymentModal input[type='number']").val() * price;
-   
+    _amount.total = $("#paymentModal input[type='number']").val() * price; 
 })
 
 _amount= { total:price, currency: 'PHP'};

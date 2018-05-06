@@ -27,20 +27,9 @@ a,p{
   .contact-float{
    left:15px;
   }
-  .social-media-links{
-      right:15px;
-  }
 }
 
-.social-media-links{
-  position: fixed;
-  bottom: 22px;
-  right: 40px;
-  z-index: 99999;
-}
-.social-media-links a {
-  text-decoration:none;
-}
+
 
 body{
   overflow-x: hidden;
@@ -329,7 +318,7 @@ text-decoration:none;
 }
 
 .commright{
-  background: url('img/comm.jpg');
+  background: url("img/comm.jpg");
   padding: 3%;
   height: 200px;
   background: cover;
