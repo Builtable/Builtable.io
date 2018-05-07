@@ -2,9 +2,9 @@
 layout: workshop
 pageTitle: "Jewelry Beads Accessory Making"
 title:  "Jewelry Beads Accessory Making"
-date:   2020-03-17 15:33:52 +0800
-eventStartDate: 2018-04-28 09:00:00 +0800
-eventEndDate: 2018-04-28 12:00:00 +0800
+date:   2018-03-23 15:33:52 +0800
+eventStartDate: 2018-06-30 09:00:00 +0800
+eventEndDate: 2018-06-30 12:00:00 +0800
 earlyPrice: "2500"
 price: "3000"
 categories: workshops
