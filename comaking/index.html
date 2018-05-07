@@ -127,7 +127,16 @@ layout: main
                     {%else%}
                     <h4 class="price">{{post.price}} PHP</h4>
                     {% endif %}
+
+                    {% assign today_date = 'now' | date: '%s' %}
+                    {% assign pre_date = post.eventStartDate | date: '%s' %}
+                    {% if today_date > pre_date %}
+
+                    <p class="date">TBA (To be announced)</p>
+                    {% else %}
                     <p class="date">{{ post.eventStartDate | date: "%B %d, %Y - %r" }}</p>
+                    {% endif %}
+
                     <p>{{post.content | truncate: 170}}</p>
                     <p><a  href="{{post.url}}" class="btn">Tickets</a></p>
 

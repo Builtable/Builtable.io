@@ -428,6 +428,9 @@
     display:none !important;
     visibility: hidden !important;
   }
+  .center-block{
+    margin:0 auto;
+  }
   @media (max-width:768px) { 
     .mobile-only{
       display:block !important;
@@ -438,6 +441,7 @@
       visibility: hidden !important;
     }
   }
+
   
   @media (min-width:320px) and (max-width:768px) {
     

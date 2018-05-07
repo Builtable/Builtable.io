@@ -120,7 +120,18 @@ height="0" width="0" ></iframe></noscript>
 <div class="workshop-title">
     <div class="container">
     <h1>{{page.title}} <span>₱ {{page.earlyPrice}}</span></h1>
+
+
+    
+    {% assign today_date = 'now' | date: '%s' %}
+    {% assign pre_date = page.eventStartDate | date: '%s' %}
+
+
+    {% if today_date > pre_date %}
+    <h4 class="date">TBA (To be announced) </h4>
+    {% else %}
        <h4 class="date">{{ page.eventStartDate | date: "%B %d, %Y - %I:%M %p" }} to {{page.eventEndDate | date: "%I:%M %p" }}</h4>
+       {% endif %}
        <div class="workshop-actions">
          
             {% if page.earlyPrice != '' %}
