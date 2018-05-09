@@ -1,10 +1,10 @@
 ---
 layout: workshop
-pageTitle: "Leather Craft: Tech Essentials"
-title:  "Leather Craft: Tech Essentials"
-date:   2018-03-21 15:33:52 +0800
-eventStartDate: 2018-05-26 13:00:00 +0800
-eventEndDate: 2018-05-26 18:00:00 +0800
+pageTitle: "Leather Craft: Everyday Essentials"
+title:  "Leather Craft: Everyday Essentials"
+date:   2018-03-22 15:33:52 +0800
+eventStartDate: 2018-06-30 13:00:00 +0800
+eventEndDate: 2018-06-30 18:00:00 +0800
 earlyPrice: "2990"
 price: "3490"
 categories: workshops

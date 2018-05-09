@@ -3,8 +3,8 @@ layout: workshop
 pageTitle: "Mold making & casting (novelty toys)"
 title:  "Mold making & casting (novelty toys)"
 date:   2018-03-18 15:33:52 +0800
-eventStartDate: 2018-05-05 13:00:00 +0800
-eventEndDate: 2018-05-05 18:00:00 +0800
+eventStartDate: 2018-06-02 13:00:00 +0800
+eventEndDate: 2018-06-02 18:00:00 +0800
 earlyPrice: "2800"
 price: "3000"
 categories: workshops
