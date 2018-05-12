@@ -5,7 +5,7 @@ title:  "Basic Brush Lettering"
 date:   2018-03-24 15:33:52 +0800
 eventStartDate: 2018-06-16 13:00:00 +0800
 eventEndDate: 2018-06-16 18:00:00 +0800
-earlyPrice: "1800"
+earlyPrice: "2000"
 price: "2290"
 categories: workshops
 imageUrl: /assets/images/workshops/calligraphy/main.jpg
