@@ -2,7 +2,7 @@
 layout: workshop
 pageTitle: "SEO 101 for Bloggers"
 title:  "SEO 101 for Bloggers"
-date:   2018-03-18 15:33:52 +0800
+date:   2018-03-26 15:33:52 +0800
 eventStartDate: 2018-05-09 18:30:00 +0800
 eventEndDate: 2018-05-09 21:30:00 +0800
 earlyPrice: "700"

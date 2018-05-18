@@ -2,7 +2,7 @@
 layout: workshop
 pageTitle: "Leather Craft: Everyday Essentials"
 title:  "Leather Craft: Everyday Essentials"
-date:   2018-03-22 15:33:52 +0800
+date:   2018-03-24 15:33:52 +0800
 eventStartDate: 2018-06-30 13:00:00 +0800
 eventEndDate: 2018-06-30 18:00:00 +0800
 earlyPrice: "2990"
@@ -70,5 +70,7 @@ Sample output of the workshop:
 ![handmade leathercraft](/assets/images/workshops/travel-essentials/travel-essential-3.jpg "handmade leathercraft")
 <br>
 <br>
+<br>
+*This is a summer workshop from Builtable Coworking.*
 <br>
 *Builtable Coworking provides maker workshops in Shaw Boulevard, Mandaluyong city Philippines* 

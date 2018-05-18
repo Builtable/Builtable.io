@@ -68,4 +68,6 @@ charms to make a pair of earrings
 <br>
 <br>
 <br>
+*This is a summer workshop from Builtable Coworking.*
+<br>
 *Builtable Coworking provides maker workshops in Shaw Boulevard, Mandaluyong city Philippines* 
