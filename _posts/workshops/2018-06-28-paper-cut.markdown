@@ -2,9 +2,9 @@
 layout: workshop
 pageTitle: "Intro to Basic Papercutting"
 title:  "Intro to Basic Papercutting"
-date:   2018-03-23 15:33:52 +0800
-eventStartDate: 2018-06-28 13:00:00 +0800
-eventEndDate: 2018-06-28 18:00:00 +0800
+date:   2018-03-25 18:33:52 +0800
+eventStartDate: 2018-07-28 13:00:00 +0800
+eventEndDate: 2018-07-28 18:00:00 +0800
 earlyPrice: "1800"
 price: "2290"
 categories: workshops
