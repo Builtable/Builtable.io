@@ -5,8 +5,8 @@ title:  "Basic Air Dry Clay Workshop"
 date:   2018-03-25 18:33:52 +0800
 eventStartDate: 2018-07-23 13:00:00 +0800
 eventEndDate: 2018-07-23 18:00:00 +0800
-earlyPrice: "1750"
-price: "2050"
+earlyPrice: "1800"
+price: "2000"
 categories: workshops
 imageUrl: /assets/images/workshops/clay-art/main.jpg
 imageUrlAlt: Clay art figurine
