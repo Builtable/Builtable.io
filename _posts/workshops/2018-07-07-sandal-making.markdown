@@ -47,6 +47,8 @@ Sample output of the workshop:
 
 ![handmade leathercraft sandals](/assets/images/workshops/sandal-making/sample-2.jpg "handmade leathercraft")
 
+![handmade leathercraft sandals](/assets/images/workshops/sandal-making/sample-3.jpg "handmade leathercraft")
+
 <br>
 <br>
 <br>
