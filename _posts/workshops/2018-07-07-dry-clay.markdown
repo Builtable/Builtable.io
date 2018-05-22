@@ -1,0 +1,36 @@
+---
+layout: workshop
+pageTitle: "Basic Air Dry Clay Workshop"
+title:  "Basic Air Dry Clay Workshop"
+date:   2018-03-25 18:33:52 +0800
+eventStartDate: 2018-07-23 13:00:00 +0800
+eventEndDate: 2018-07-23 18:00:00 +0800
+earlyPrice: "1750"
+price: "2050"
+categories: workshops
+imageUrl: /assets/images/workshops/clay-art/main.jpg
+imageUrlAlt: Clay art figurine
+---
+Come and Join Rio Ramos Santor (Little Figure Shop), an experienced polymer clay and air dry clay craft artist for a workshop and an afternoon filled with creativity, inspiration and fun!
+Make your own air dry clay creations from nametag, phone accesory, charm bracelet and Chibi! (Mini Figurine)
+
+** Inclusive materials, tools, handouts, certificate and snacks
+
+Sample output of the workshop:
+
+![Clay art figurine](/assets/images/workshops/clay-art/sample-work.jpg "Clay art figurine")
+
+Other sample works of [Little Figure Shop](https://facebookcompepot09.wordpress.com/):
+
+![Clay art figurine](/assets/images/workshops/clay-art/sample-1.jpg "Clay art figurine")
+
+![Clay art figurine](/assets/images/workshops/clay-art/sample-2.jpg "Clay art figurine")
+
+![Clay art figurine](/assets/images/workshops/clay-art/sample-3.jpg "Clay art figurine")
+
+<br>
+<br>
+<br>
+*This is a summer workshop from Builtable Coworking.*
+<br>
+*Builtable Coworking provides maker workshops in Shaw Boulevard, Mandaluyong city Philippines* 
