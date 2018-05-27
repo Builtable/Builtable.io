@@ -1,0 +1,308 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+        
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Builtable -  Workshops and Events space in Shaw Boulevard Mandaluyong City, Metro Manila, Philippines">
+    <meta name="author" content="Builtable Coworking">
+
+
+    <title>Leather Craft: Basic Bag Making</title>
+
+    
+       <!-- For Facebook -->
+<meta property="og:title" content="Leather Craft: Basic Bag Making" />
+<meta property="og:image" content="/assets/images/workshops/leather-bag/main.jpg" />
+<meta property="og:description" content="<p>Have you ever imagine of having a bag that has your signature on it? Let Cindel &amp; Abby of HOLY CRAFT! Studios guide you in making one through this hand-made leather bag workshop! Learn ..." />
+
+
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <!-- <link href="../css/style.css" rel="stylesheet"> -->
+    <!-- <link href="../css/scrolling-nav.css" rel="stylesheet"> -->
+    <link href="../css/main.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href='fonts/noodle.ttf'>
+
+    <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="../assets/images/apple-touch-icon.png">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+        
+
+ <!-- Navigation -->
+ <nav class="navbar navbar-fixed-top " role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div id="navbar" class="navbar-collapse collapse ">
+                <ul class="nav nav-justified">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/"><img alt="Builtable Coworking logo" src="../css/img/logo.png";></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/coworking">Coworking</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/comaking">Workshops</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/events">Events</a>
+                    </li>
+                     <li>
+                        <a class="page-scroll" href="/blog">Blog</a>
+                    </li>
+                    <!--<li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li> -->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+
+<div class="modal fade" id="paymentModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+                <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title"></h4>
+                      </div>
+                      <div class="modal-body">
+                        <p><strong>Quantity:</strong> <input type="number" value="1" min="1" max="80"/> 
+                            
+                            <br>
+                            Payment Options:
+                        </p>
+                        <div id="paypal-button"></div>
+                        <span class="paypal-charges"></span>
+                      </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+
+<div class="modal fade" id="afterPaymentModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                    <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title"></h4>
+                          </div>
+                          <div class="modal-body">
+                                <div class="check_mark">
+                                        <div class="sa-icon sa-success animate">
+                                          <span class="sa-line sa-tip animateSuccessTip"></span>
+                                          <span class="sa-line sa-long animateSuccessLong"></span>
+                                          <div class="sa-placeholder"></div>
+                                          <div class="sa-fix"></div>
+                                        </div>
+                                      </div>
+                            <div class="content">
+                            </div>
+                            <a href="#" data-dismiss="modal" class="btn btn-primary col-xs-12">Got it!</a>
+                          </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="bankDepositModal" tabindex="-1" role="dialog" aria-labelledby="bankDepositModal">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">4 Easy Steps to Bank Transfer!</h4>
+            </div>
+            <div class="modal-body">
+              <ol>
+                  <li>Deposit the amount to our <strong>BDO</strong> or <strong>Metrobank</strong> bank account: 
+                      <br>
+                      <p><strong>Metrobank Account Name:
+                            CTT.Synergy Corporation
+                            <br>
+                            Metrobank Acct No.:
+                            0007881000616</strong></p>
+                        <p>
+                            <p>
+                                <strong>
+                                        BDO Account Name:
+                                        CTT.Synergy Corporation
+                                        <br>
+                                        BDO Acct No.:
+                                        000668083218
+                                </strong>
+                            </p>
+                
+                  </li>
+                  <li>
+                      Take a picture of the Deposit Slip!
+                  </li>
+                  <li>Email to <a href="mailto:connect@builtable.co">connect@builtable.co</a> 
+                    or <a href="https://m.facebook.com/messages/compose?ids=167600830348313" target="_new">FB Message</a> 
+                    s copy of the Bank Deposit Slip.</li>
+                  <li>Wait for our reply for the confirmation, and you're all set!</li>
+
+                </ol>
+                    <button type="button" data-dismiss="modal" class="btn btn-primary">Got it!</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+
+
+<div class="workshop-page bg-img desktop-only" style="background-image: url(../assets/images/workshops/leather-bag/main.jpg)"></div>
+<img src="/assets/images/workshops/leather-bag/main.jpg" class="img-responsive mobile-only"/>
+<div class="workshop-title">
+    <div class="container">
+    <h1>Leather Craft: Basic Bag Making <span>₱ 3090</span></h1>
+
+
+    
+    
+    
+
+
+    
+       <h4 class="date">July 21, 2018 - 01:00 PM to 05:00 PM</h4>
+       
+       <div class="workshop-actions">
+         
+            
+            <a class="btn" data-toggle="modal" data-target="#paymentModal" data-product="Leather Craft: Basic Bag Making" data-price="3090">Pay Online</a>
+        
+           
+            <a class="btn" data-toggle="modal" data-target="#bankDepositModal">Bank Deposit</a>
+        </div>  
+    </div>
+    </div> 
+ <div class="container">
+     <div class="col-xs-12 col-md-10 workshop-content">
+          
+            <p>Have you ever imagine of having a bag that has your signature on it? Let Cindel &amp; Abby of HOLY CRAFT! Studios guide you in making one through this hand-made leather bag workshop! Learn to design &amp; make your very own Leather Carry-all Bag &amp; Bag Ornament for yourself or someone!</p>
+
+<p><strong>Add-ons: (Until July 18)</strong></p>
+<ul>
+  <li>Basic Leather Tool Kit: 1500php</li>
+  <li>Deluxe Leather Tool Kit: 3500php</li>
+</ul>
+
+<p><strong>KIT INCLUSIONS</strong>
+Leather/ Magnetic Snaps/ Rivets/ Tote Bag Pattern/ Making Guide &amp; Instructions</p>
+
+<p>** STRICTLY should be in the event by 1:00 PM the LATEST.</p>
+
+<p>** Participants can bring aprons or gloves if they don’t want to get their clothes and hands dirty.</p>
+
+<p>Otherwise come in work clothes. (The burnishing and edge dyeing process as well as glueing can get a bit messy.)</p>
+
+<p>** Leather Crafting Tools will be provided to make the bag BUT not to be brought home. To have your own set of tools, preorder as an add-on until the early bird date. Else, you can buy one on-site (limited quantities only) or order one after the workshop.</p>
+
+<p>** Inclusive of the Kit</p>
+
+<p><strong>PROGRAM:</strong></p>
+
+<p>12:30-1:00 - REGISTRATION</p>
+
+<p>1:00-1:30 - INTRODUCTION</p>
+
+<p>1:30-3:00 – INITIAL BAG DESIGN</p>
+
+<p>3:00-3:30 – BREAK</p>
+
+<p>3:30-5:00 – FINALIZE BAG</p>
+
+<p>5:00-6:00 – WRAP UP</p>
+
+<p><img src="/assets/images/workshops/leather-bag/sample-1.jpg" alt="handmade leather bag workshop" title="handmade leather bag workshop" /></p>
+
+<p><img src="/assets/images/workshops/leather-bag/sample-2.jpg" alt="handmade leather bag workshop" title="handmade leather bag workshop" />
+<br />
+<br />
+<br />
+<em>Builtable Coworking provides maker workshops in Shaw Boulevard, Mandaluyong city Philippines</em></p>
+
+
+     </div>
+    
+    
+    </div>
+    
+
+    <div class="row footer">
+        <div class="col-lg-12">
+            <h1>Builtable Copyright (c) 2018 Copyright Holder All Rights Reserved | Website by <a href="http://worksofheartph.com">WORKS OF HEART</a> X JMTee  |&nbsp&nbsp<a href="../sitemap.xml" target="_blank">Sitemap</a></h1>
+           
+        </div> 
+    </div>
+
+    
+
+<script>
+    var Global_ENV = "sandbox";
+</script>
+ 
+
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+
+    <script src="https://www.paypalobjects.com/api/checkout.js"></script>
+
+        <!-- Scrolling Nav JavaScript -->
+    <script src="../js/jquery.easing.min.js"></script>
+    <script src="../js/scrolling-nav.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/payment.js"></script>
+</body>
+
+</html>
