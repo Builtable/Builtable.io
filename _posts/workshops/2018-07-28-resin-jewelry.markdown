@@ -2,9 +2,9 @@
 layout: workshop
 pageTitle: "Resin Jewelry Making"
 title:  "Resin Jewelry Making"
-date:   2020-03-17 15:33:52 +0800
-eventStartDate: 2018-04-28 01:00:00 +0800
-eventEndDate: 2018-04-29 17:00:00 +0800
+date:   2018-03-25 19:34:52 +0800
+eventStartDate: 2018-07-28 01:00:00 +0800
+eventEndDate: 2018-07-29 17:00:00 +0800
 earlyPrice: "2390"
 price: "2690"
 categories: workshops
