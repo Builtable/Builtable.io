@@ -8,11 +8,13 @@ $('#paymentModal').on('show.bs.modal', function (e) {
  var productName = $(e.relatedTarget).attr("data-product");
  var paypalCharge = (($(e.relatedTarget).attr("data-price")*0.029)+15).toFixed(2) ;
  var price = parseFloat($(e.relatedTarget).attr("data-price"))+ parseFloat(paypalCharge);
+ var normalPrice = parseFloat($(e.relatedTarget).attr("data-price"));
  
 
  $("#paymentModal input[type='number']").blur(function(){
     _item[0].quantity =$("#paymentModal input[type='number']").val();
     _amount.total = $("#paymentModal input[type='number']").val() * price; 
+    $("#gcashModal .amount").html(normalPrice*_item[0].quantity);
 })
 
 _amount= { total:price, currency: 'PHP'};
@@ -26,6 +28,8 @@ _item = [{
  
     $("#paymentModal .modal-title").html("Payment Confirmation for a <strong>" +productName+"</strong>");
     $(".paypal-charges").html("<i>An additional of <strong>₱" +paypalCharge+"</strong> for Paypal Charges.</i>");
+    $("#gcashModal .amount").html(normalPrice*_item[0].quantity);
+    $("#gcashModal .event").html(productName);
 })
 
 $('#paymentModal').on('hidden.bs.modal', function (e) {
