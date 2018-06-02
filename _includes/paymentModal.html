@@ -16,7 +16,10 @@
                             Payment Options:
                         </p>
                         <div id="paypal-button"></div>
+                        <a class="btn gcash" data-toggle="modal" data-target="#gcashModal" >Pay with GCash</a>
                         <span class="paypal-charges"></span>
+
+                        
                       </div>
         </div>
         <!-- /.modal-content -->
@@ -45,6 +48,35 @@
                             <div class="content">
                             </div>
                             <a href="#" data-dismiss="modal" class="btn btn-primary col-xs-12">Got it!</a>
+                          </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+
+    <div class="modal fade" id="gcashModal"  tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+    
+                    <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title"><strong>Scan to Pay with GCash QR!</strong></h4>
+                          </div>
+                          <div class="modal-body">
+                              <ol>
+                                  <li>Make sure that you're <a href="https://gcash.com/personal/getting-started">account</a> in GCash is <strong>registered</strong> and <strong>verified.</strong> </li>
+                                  <li>
+                                      Open your GCash App either in <a href="https://play.google.com/store/apps/details?id=com.globe.gcash.android&hl=en">Android </a> or <a href="https://itunes.apple.com/ph/app/gcash/id520020791?mt=8"> IOS </a>
+                                  </li>
+                                  <li>Scan the QR below to pay the amount of <strong>₱<span class="amount"></span></strong> for <strong><span class="event"></span></strong></li>
+                                  <li>Wait for a text from our team and you're all set!</li>
+                              </ol>
+                           <img src="../assets/images/qrcode.svg" />
+                            
+                           <a class="btn btn-primary" data-dismiss="modal">Done Scanning!</a>
                           </div>
             </div>
             <!-- /.modal-content -->
