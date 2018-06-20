@@ -10,6 +10,8 @@ price: "3000"
 categories: workshops
 imageUrl: /assets/images/workshops/mold-making.jpg
 imageUrlAlt: Avenger's infinity war gaunlet.
+currentAttendees: 0
+totalAttendees: 15
 ---
 
 

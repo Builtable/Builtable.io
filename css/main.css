@@ -6,6 +6,13 @@
   font-weight: normal;
   font-style: normal; }
 
+.btn.gcash {
+  background-color: #171748;
+  color: white;
+  display: block;
+  width: 250px;
+  margin-top: 5px; }
+
 .contact-float {
   position: fixed;
   bottom: 22px;
@@ -276,7 +283,7 @@ ul.nav a.active {
   background: url("img/comm.jpg");
   padding: 3%;
   height: 200px;
-  background: cover; }
+  background-size: cover; }
 
 #community h1 {
   font-family: "Noodle";
@@ -359,6 +366,9 @@ ul.nav a.active {
   display: none !important;
   visibility: hidden !important; }
 
+.center-block {
+  margin: 0 auto; }
+
 @media (max-width: 768px) {
   .mobile-only {
     display: block !important;
@@ -434,15 +444,15 @@ of those sections to manage the look and feel of the site. */
   text-align: center;
   background: #eee; }
 
-.social-media-links {
+.contact-float, .social-media-links {
   position: fixed;
   bottom: 22px;
   right: 40px;
   z-index: 99999; }
 
-.social-media-links a {
+.contact-float, .social-media-links a {
   text-decoration: none; }
-  .social-media-links a span {
+  .contact-float span, .social-media-links a span {
     display: inline-block;
     padding: 0;
     line-height: 50px;
@@ -450,23 +460,40 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
     white-space: nowrap;
     vertical-align: baseline;
-    background-color: #d73d33;
+    background-color: #446CB3;
     border-radius: 50px;
     position: relative;
     top: -3px;
     height: 50px;
     width: 50px;
     font-size: 20px; }
-    .social-media-links a span.ion-social-facebook {
+    .contact-float span.ion-social-facebook, .social-media-links a span.ion-social-facebook {
       background-color: #3B5998; }
-    .social-media-links a span.ion-social-linkedin {
+    .contact-float span.ion-social-linkedin, .social-media-links a span.ion-social-linkedin {
       background-color: #0077B5; }
-    .social-media-links a span.ion-social-instagram {
+    .contact-float span.ion-social-instagram, .social-media-links a span.ion-social-instagram {
       background-color: #8a3ab9; }
-    .social-media-links a span.ion-social-twitter {
+    .contact-float span.ion-social-twitter, .social-media-links a span.ion-social-twitter {
       background-color: #1DA1F2; }
-    .social-media-links a span.ion-social-googleplus {
+    .contact-float span.ion-social-googleplus, .social-media-links a span.ion-social-googleplus {
       background-color: #DB4437; }
+
+@media (max-width: 768px) {
+  .contact-float span, .social-media-links a span {
+    display: inline-block;
+    padding: 0;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: #446CB3;
+    border-radius: 50px;
+    position: relative;
+    top: -3px;
+    height: 38px;
+    width: 38px;
+    font-size: 17px; } }
 
 .learn-intro-section {
   height: 100%;
@@ -638,7 +665,7 @@ of those sections to manage the look and feel of the site. */
       border-radius: 0px;
       font-family: "Noodle";
       display: block;
-      color: white;
+      color: white !important;
       margin-top: 12px; }
     #workshops .workshop-item span.promo {
       position: absolute;
@@ -670,8 +697,14 @@ of those sections to manage the look and feel of the site. */
       text-decoration: none;
       color: transparent;
       border-radius: 0px; }
+      #workshops .workshop-item .thumbnail a {
+        text-decoration: none;
+        color: #333; }
       #workshops .workshop-item .thumbnail .caption {
         padding: 10px 15px; }
+        #workshops .workshop-item .thumbnail .caption a {
+          text-decoration: none;
+          color: #333; }
       #workshops .workshop-item .thumbnail:hover, #workshops .workshop-item .thumbnail:focus {
         text-decoration: none;
         border: 1px solid #ddd; }
@@ -1343,6 +1376,9 @@ button {
   padding: 1px;
   position: relative;
   padding-bottom: 15px; }
+  .workshop-title h3 {
+    margin-top: 0px;
+    color: white; }
   .workshop-title h1 {
     padding-top: 0px;
     color: white;
@@ -1393,3 +1429,28 @@ button {
     position: relative; }
   .workshop-content img, .workshop-content iframe {
     width: 100% !important; } }
+
+.voffice h1 {
+  color: #fff;
+  text-shadow: 0 0 11px #969696; }
+
+.voffice-about a {
+  background-color: white;
+  font-family: Noodle;
+  width: 250px;
+  border-radius: 0;
+  font-size: 2.1em;
+  color: #333;
+  margin-top: 12px; }
+
+#gcashModal .modal-dialog {
+  background-color: white; }
+  #gcashModal .modal-dialog img {
+    margin: 0 auto;
+    display: block; }
+  #gcashModal .modal-dialog .btn {
+    display: block;
+    margin: 0 auto;
+    width: 250px; }
+  #gcashModal .modal-dialog .close {
+    color: gray; }

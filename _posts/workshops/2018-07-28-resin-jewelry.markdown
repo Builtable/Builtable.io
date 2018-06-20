@@ -10,6 +10,8 @@ price: "2690"
 categories: workshops
 imageUrl: /assets/images/workshops/resin-making/main.jpg
 imageUrlAlt: Resin Jewelry Workshop
+currentAttendees: 0
+totalAttendees: 10
 ---
 
 Basic or beginners, this is a **2-day** Workshop on how to create jewelry using magazine cutouts, pictures and even small objects such as cellphone charms by glazing them in resin! You’ll take home a set of artistic pieces as unique as yourself!You may even make a portrait pendant by bringing a picture that you would want to embed in resin!

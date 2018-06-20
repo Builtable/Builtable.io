@@ -33,8 +33,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <!-- <link href="../css/style.css" rel="stylesheet"> -->
-    <!-- <link href="../css/scrolling-nav.css" rel="stylesheet"> -->
     <link href="../css/main.min.css" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
@@ -43,12 +41,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link rel="icon" href="../favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="../assets/images/apple-touch-icon.png">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
 </head>
 
@@ -121,12 +113,16 @@ height="0" width="0" ></iframe></noscript>
     <div class="container">
     <h1>{{page.title}} <span>₱ {{page.earlyPrice}}</span></h1>
 
+    {% if page.totalAttendees!= page.currentAttendees %}
+                    <h3>{{page.totalAttendees |minus:page.currentAttendees}} Slots left!</h3>
+                    {% else %}
+                     
+                    <h3>Full Booked! </h3>
+                    
+                    {% endif %}
 
-    
     {% assign today_date = 'now' | date: '%s' %}
     {% assign pre_date = page.eventStartDate | date: '%s' %}
-
-
     {% if today_date > pre_date %}
     <h4 class="date">TBA (To be announced) </h4>
     {% else %}

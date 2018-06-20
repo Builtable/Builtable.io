@@ -10,6 +10,8 @@ price: "3490"
 categories: workshops
 imageUrl: /assets/images/workshops/travel-essentials/main.jpg
 imageUrlAlt: leather crafting in the Philippines
+currentAttendees: 4
+totalAttendees: 20
 ---
 This event is an introduction into the wonderful world of leathercrafting. We will learn the basics of choosing and caring for leather, cutting leather, measuring and using patterns, learning the saddle stitch ,setting snaps and rivets, stamping leather & foiling.
 

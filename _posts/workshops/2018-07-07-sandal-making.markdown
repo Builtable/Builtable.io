@@ -10,6 +10,8 @@ price: "2050"
 categories: workshops
 imageUrl: /assets/images/workshops/sandal-making/main.jpg
 imageUrlAlt: Sandal Crafting in the Philippines
+currentAttendees: 2
+totalAttendees: 15
 ---
 
 Learn to make your own hand made sandals for you to take home and start your own footwear business? Risqué Designs is a Filipino lifestyle brand that brings forth modernity and luxury with its meticulously hand crafted artisan products. Risqué envisions a revival of traditional crafts to be competitive with global brands, thus fostering a surge in demand for age-old skills, such as loom-weaving, wood carving and shoe

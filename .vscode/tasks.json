@@ -9,6 +9,12 @@
             "type": "shell",
             "command": "node-sass sass/main.scss css/main.css",
             "group": "build"
+        },
+        {
+            "label": "Sass Compile Min",
+            "type": "shell",
+            "command": "node-sass sass/main.scss css/main.min.css --output-style compressed",
+            "group": "build"
         }
     ]
 }   

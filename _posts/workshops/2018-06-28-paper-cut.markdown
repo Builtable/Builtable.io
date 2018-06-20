@@ -10,6 +10,8 @@ price: "2290"
 categories: workshops
 imageUrl: /assets/images/workshops/paper-cut/main.jpg
 imageUrlAlt: papercutting art
+currentAttendees: 1
+totalAttendees: 10
 ---
 Learn something new this summer and craft your stress away through our papercutting workshop! Express your creativity and learn the essential papercutting techniques to create your own glass framed papercutting art!
 
