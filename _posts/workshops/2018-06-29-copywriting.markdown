@@ -18,7 +18,7 @@ In today’s competitive business world, writing has become one of the most soug
 
 Having the same problem? Worry no more, as [SEO Hacker](https://seo-hacker.net) founder and head honcho [Sean Si](https://seansi.org/), along with [Sigil](https://sigilbrand.com/) CEO and copywriting expert Vince Figueroa bring you Copywriting 101 Workshop: Making More Money Passively from the Digital World!
 
-Join us on this June 20, 2018 at Builtable, as they will provide you with valuable insights on becoming a better writer, along with some enriching activities that will help sharpen your craft. Dinner is on us too!
+Join us on this workshop at Builtable, as they will provide you with valuable insights on becoming a better writer, along with some enriching activities that will help sharpen your craft. Dinner is on us too!
 
 
 **PROGRAM:**
