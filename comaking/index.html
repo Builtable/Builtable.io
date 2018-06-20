@@ -137,8 +137,9 @@ layout: main
                      {% endif %}
 
                   <div class="caption">  
+                        <a href="{{post.url}}">
                     <h3>{{ post.title}}</h3>
-                    
+                   
                     {% if post.earlyPrice != ""  %}
                     <h4 class="price">{{post.earlyPrice}} PHP <strike>{{post.price}} PHP</strike></h4>
                     {%else%}
@@ -150,14 +151,14 @@ layout: main
                     <p class="date">TBA (To be announced)</p>
                     {% else %}
                     <p class="date">{{ post.eventStartDate | date: "%B %d, %Y - %r" }}</p>
-                  
+                 
                     {% endif %}
 
                   
 
 
                     <p>{{post.content | truncate: 170}}</p>
-                    
+                </a>
                   
                     
                 
