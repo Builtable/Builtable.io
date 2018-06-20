@@ -10,6 +10,8 @@ price: "2290"
 categories: workshops
 imageUrl: /assets/images/workshops/calligraphy/main.jpg
 imageUrlAlt: papercutting art
+currentAttendees: 0
+totalAttendees: 10
 ---
 We would like to invite you and learn the basic brush techniques / calligraphy so that you can
 create proper lettering work and different lettering styles. Join us in our calligraphy workshop by [Nico Ng.](https://www.instagram.com/nic_the_/?hl=en)
