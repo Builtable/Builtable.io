@@ -10,6 +10,8 @@ price: "2000"
 categories: workshops
 imageUrl: /assets/images/workshops/clay-art/main.jpg
 imageUrlAlt: Clay art figurine
+currentAttendees: 11
+totalAttendees: 15
 ---
 Come and Join Rio Ramos Santor (Little Figure Shop), an experienced polymer clay and air dry clay craft artist for a workshop and an afternoon filled with creativity, inspiration and fun!
 Make your own air dry clay creations from nametag, phone accesory, charm bracelet and Chibi! (Mini Figurine)

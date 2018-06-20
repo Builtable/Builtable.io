@@ -10,6 +10,8 @@ price: "900"
 categories: workshops
 imageUrl: /assets/images/workshops/seo-101/main.jpg
 imageUrlAlt: Basics of SEO.
+currentAttendees: 0
+totalAttendees: 20
 ---
 
 

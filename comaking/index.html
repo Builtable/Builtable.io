@@ -115,33 +115,56 @@ layout: main
         <div class="col-lg-12 ">
           {% for post in site.categories["workshops"] reversed %}
             <div class="col-sm-12 col-md-4 workshop-item">
-                <div href="{{post.url}}" class="thumbnail">
+                
+                {% assign today_date = 'now' | date: '%s' %}
+                {% assign pre_date = post.eventStartDate | date: '%s' %}
+
+                <div class="thumbnail">
+                <a href="{{post.url}}">
                     {% if post.earlyPrice != "" %}
                      <span class="promo">Early Bird Rate!</span>
                      {% endif %}
-                  <img src="{{post.imageUrl}}" alt="{{page.imageUrlAlt}}">
-                  <div class="caption">
+                 
+                     <img src="{{post.imageUrl}}" alt="{{page.imageUrlAlt}}">
+                  
+                     {% if post.totalAttendees!= post.currentAttendees %}
+
+                     <p><a  href="{{post.url}}" class="btn">{{post.totalAttendees |minus:post.currentAttendees}} Slots left!</a> </p>
+                     {% else %}
+                      
+                     <p><a  href="{{post.url}}" class="btn">Full Booked!</a> </p>
+                     
+                     {% endif %}
+
+                  <div class="caption">  
                     <h3>{{ post.title}}</h3>
+                    
                     {% if post.earlyPrice != ""  %}
                     <h4 class="price">{{post.earlyPrice}} PHP <strike>{{post.price}} PHP</strike></h4>
                     {%else%}
                     <h4 class="price">{{post.price}} PHP</h4>
                     {% endif %}
 
-                    {% assign today_date = 'now' | date: '%s' %}
-                    {% assign pre_date = post.eventStartDate | date: '%s' %}
+                    
                     {% if today_date > pre_date %}
-
                     <p class="date">TBA (To be announced)</p>
                     {% else %}
                     <p class="date">{{ post.eventStartDate | date: "%B %d, %Y - %r" }}</p>
+                  
                     {% endif %}
 
+                  
+
+
                     <p>{{post.content | truncate: 170}}</p>
-                    <p><a  href="{{post.url}}" class="btn">Tickets</a></p>
+                    
+                  
+                    
+                
 
 
                 </div>
+            </a> 
             </div>
               </div>
               {% endfor %}

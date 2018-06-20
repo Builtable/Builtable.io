@@ -10,6 +10,8 @@ price: "3000"
 categories: workshops
 imageUrl: /assets/images/workshops/jewelry-making/main.jpg
 imageUrlAlt: jewelry beads making workshop
+currentAttendees: 0
+totalAttendees: 15
 ---
 
 

@@ -3,10 +3,15 @@
     padding:1px;
     position:relative;
     padding-bottom:15px;
+    h3{
+        margin-top:0px;
+        color:white;
+    }
     h1{
 padding-top:0px;
 color:white;
 text-align:left;
+
 span{
     background-color:#00B16A;
     padding:0px 20px;
@@ -15,7 +20,7 @@ span{
     h4{
         color:white;
         font-family: 'Roboto Slab', serif;
-    }
+    }   
 }
 .workshop-actions{
     display: inline-block;

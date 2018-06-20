@@ -2,14 +2,16 @@
 layout: workshop
 pageTitle: "Copywriting 101"
 title:  "Copywriting 101"
-date:   2018-03-22 16:33:52 +0800
-eventStartDate: 2018-06-20 17:00:00 +0800
-eventEndDate: 2018-06-20 21:00:00 +0800
+date:   2018-03-25 17:30:52 +0800
+eventStartDate: 2018-07-18 17:00:00 +0800
+eventEndDate: 2018-07-18 21:00:00 +0800
 earlyPrice: "2000"
 price: "2200"
 categories: workshops
 imageUrl: /assets/images/workshops/copywriting/main.jpg
 imageUrlAlt: copywriting 101
+currentAttendees: 4
+totalAttendees: 20
 ---
 
 In today’s competitive business world, writing has become one of the most sought-after skills in marketing. From writing compelling content, to being the mastermind of memorable taglines being a writer is a challenging yet rewarding profession. Writers face many challenges today, from finding fresh ideas, to being able to make a profit. These kinds of challenges can burn out your passion and get you stuck in a rut.
