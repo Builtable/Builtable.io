@@ -3,6 +3,16 @@
     padding:1px;
     position:relative;
     padding-bottom:15px;
+
+    .breadcrumbs{
+        display:block;
+        margin-top:20px;
+        color:white;
+        a,span{
+            color:white;
+            text-decoration: underline;
+        }
+    }
     h3{
         margin-top:0px;
         color:white;
