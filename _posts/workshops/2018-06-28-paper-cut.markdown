@@ -13,7 +13,7 @@ imageUrlAlt: papercutting art
 currentAttendees: 1
 totalAttendees: 10
 ---
-Learn something new this summer and craft your stress away through our papercutting workshop! Express your creativity and learn the essential papercutting techniques to create your own glass framed papercutting art!
+Learn something new this  and craft your stress away through our papercutting workshop! Express your creativity and learn the essential papercutting techniques to create your own glass framed papercutting art!
 
 
 ** STRICTLY should be in the event by 1:15 PM the LATEST.
@@ -40,6 +40,6 @@ Learn something new this summer and craft your stress away through our papercutt
 <br>
 <br>
 <br>
-*This is a summer workshop from Builtable Coworking.*
+*This is a  workshop from Builtable Coworking.*
 <br>
 *Builtable Coworking provides maker workshops in Shaw Boulevard, Mandaluyong city Philippines* 
