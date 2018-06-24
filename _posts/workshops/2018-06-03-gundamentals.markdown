@@ -35,6 +35,6 @@ This event is an introduction to Gunpla Modeling. Learn all the basic techniques
 <br>
 <br>
 <br>
-*This is a summer workshop from Builtable Coworking.*
+*This is a  workshop from Builtable Coworking.*
 <br>
 *Builtable Coworking provides maker workshops in Shaw Boulevard, Mandaluyong city Philippines* 

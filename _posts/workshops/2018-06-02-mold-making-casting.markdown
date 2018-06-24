@@ -1,21 +1,20 @@
 ---
 layout: workshop
-pageTitle: "Mold making & casting (novelty toys)"
-title:  "Mold making & casting (novelty toys)"
-date:   2018-03-27 15:33:52 +0800
-eventStartDate: 2018-06-02 13:00:00 +0800
-eventEndDate: 2018-06-02 18:00:00 +0800
+pageTitle: "Mold making & casting Ant-Man"
+title:  "Mold making & casting Ant-Man"
+date:   2018-03-25 19:35:52 +0800
+eventStartDate: 2018-07-28 13:00:00 +0800
+eventEndDate: 2018-07-28 18:00:00 +0800
 earlyPrice: "2800"
 price: "3000"
 categories: workshops
-imageUrl: /assets/images/workshops/mold-making.jpg
-imageUrlAlt: Avenger's infinity war gaunlet.
+imageUrl: /assets/images/workshops/mold-making/main.jpg
+imageUrlAlt: Ant-Man small figurine
 currentAttendees: 0
 totalAttendees: 15
 ---
 
-
-Still can't get over with Avenger's Infinity War? We would like to invite you to embark on the journey of "cloning" your own infinity gauntlet. This is a Sculpt in clay workshop! Use molds to create objects in plaster of paris & resin. Get the chance to produce your own novelty toy for personal use or starting your own toy business.
+Ant-Man 2 is coming up and would it be better to make you're own small sized Ant-Man? And in the process, learn the method of cloning a sculpted figurine! Use molds to create objects in plaster of paris & resin. Get the chance to produce your own novelty toy for personal use or starting your own toy business.
 
 
 <strong>PROGRAM: </strong>
@@ -56,23 +55,28 @@ Resin, Hardener, Brush, Mask, Gloves, Mixing Cup
 Use of:
 Basic Tools, Templates
 
+THINGS TO BRING:(optional)
+Apron
+Pen and Paper
+Towel
+
 ##### Some photos of the process:
 
-![alt text](../../assets/images/workshops/mold-making/silicon-mold.jpg "silicon mold")
+![Mold Making workshop](../../assets/images/workshops/mold-making/step-1.jpg "silicon mold")
 <br>
 <br>
-![alt text](../../assets/images/workshops/mold-making/plaster-paris.jpg "plaster of paris")
+![Mold Making workshop](../../assets/images/workshops/mold-making/step-2.jpg "plaster of paris")
 <br>
 <br>
-![alt text](../../assets/images/workshops/mold-making/silicon.jpg "Silicon Mold")
+![Mold Making workshop](../../assets/images/workshops/mold-making/step-3.jpg "Silicon Mold")
 <br>
 <br>
-![alt text](../../assets/images/workshops/mold-making/finish-product.jpg "infinity Gauntlet")
+![Mold Making workshop](../../assets/images/workshops/mold-making/step-4.jpg "infinity Gauntlet")
 
 
 <br>
 <br>
 <br>
-*This is a summer workshop from Builtable Coworking.*
+*This is a workshop from Builtable Coworking.*
 <br>
 *Builtable Coworking provides maker workshops in Shaw Boulevard, Mandaluyong city Philippines* 
