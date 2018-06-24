@@ -2,7 +2,7 @@
 layout: workshop
 pageTitle: "Basic Brush Lettering"
 title:  "Basic Brush Lettering"
-date:   2018-03-25 17:32:52 +0800
+date:   2018-03-25 15:33:53 +0800
 eventStartDate: 2018-07-14 13:00:00 +0800
 eventEndDate: 2018-07-14 18:00:00 +0800
 earlyPrice: "2000"

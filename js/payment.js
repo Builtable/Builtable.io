@@ -27,7 +27,7 @@ _item = [{
     }]
  
     $("#paymentModal .modal-title").html("Payment Confirmation for a <strong>" +productName+"</strong>");
-    $(".paypal-charges").html("<i>An additional of <strong>₱" +paypalCharge+"</strong> for Paypal Charges.</i>");
+    $(".paypal-charges").html("<i>*An additional of <strong>₱" +paypalCharge+"</strong> for Paypal Charges.</i>");
     $("#gcashModal .amount").html(normalPrice*_item[0].quantity);
     $("#gcashModal .event").html(productName);
 })
