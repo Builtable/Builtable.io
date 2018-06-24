@@ -40,22 +40,22 @@ But what if your boss doesn’t allow you to work from home? Then maybe you can 
 
 Not a fan of working from home?  Having trouble focusing ? Coworking spaces has been popping up around Metro Manila. They provide flexible arrangements/price for shared spaces. Here are some of the top coworking spaces in Manila:
 
-##### Makati City - [ASPACE](https://aspacemanila.com/)
+#### Makati City - [ASPACE](https://aspacemanila.com/)
 
 ![coworking space in Makati](/assets/images/blogs/5-Tips-on-how-to-beat-the-Manila-Traffic/aspace.jpg "coworking")
 #### Taguig City - [Acceler8 By Union Space](http://acceler8.ph/home/)
 ![coworking space in Taguig](/assets/images/blogs/5-Tips-on-how-to-beat-the-Manila-Traffic/acceler8.jpg "coworking")
 
-##### Pasig City - [Loft.ph](https://www.loft.ph/)
+#### Pasig City - [Loft.ph](https://www.loft.ph/)
 ![coworking space in Pasig](/assets/images/blogs/5-Tips-on-how-to-beat-the-Manila-Traffic/loft.jpg "coworking")
 
-##### Mandaluyong City - [Builtable Coworking](https://builtable.co/)
+#### Mandaluyong City - [Builtable Coworking](https://builtable.co/)
 ![coworking space in mandaluyong](/assets/images/blogs/5-Tips-on-how-to-beat-the-Manila-Traffic/builtable.jpg "coworking")
 
-##### Manila City - [933 MNL Coworking](https://www.933mnl.com/)
+#### Manila City - [933 MNL Coworking](https://www.933mnl.com/)
 ![coworking space in Manila City](/assets/images/blogs/5-Tips-on-how-to-beat-the-Manila-Traffic/933.jpg "coworking")
 
-##### Quezon City - [Greatwork](https://greatworkglobal.com/)
+#### Quezon City - [Greatwork](https://greatworkglobal.com/)
 ![coworking space in Quezon City](/assets/images/blogs/5-Tips-on-how-to-beat-the-Manila-Traffic/greatwork.jpg "greatwork")
 
 ### Work while you share a ride!
