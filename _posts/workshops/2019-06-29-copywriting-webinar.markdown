@@ -5,8 +5,8 @@ title:  "Copywriting 101 (Webinar)"
 date:   2018-03-25 17:30:52 +0800
 eventStartDate: 2018-07-18 17:00:00 +0800
 eventEndDate: 2018-07-18 21:00:00 +0800
-earlyPrice: "1500"
-price: "1800"
+earlyPrice: "1300"
+price: "1500"
 categories: workshops
 imageUrl: /assets/images/workshops/copywriting/main.jpg
 imageUrlAlt: copywriting 101
