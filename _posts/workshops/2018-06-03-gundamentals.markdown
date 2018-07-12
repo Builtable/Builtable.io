@@ -10,8 +10,8 @@ price: "2090"
 categories: workshops
 imageUrl: /assets/images/workshops/gundam/main.jpg
 imageUrlAlt: customizing gundams
-currentAttendees: 0
-totalAttendees: 10
+currentAttendees: 6
+totalAttendees: 15
 ---
 This event is an introduction to Gunpla Modeling. Learn all the basic techniques you need so that you can start your Gunpla Collection! Gupla Detailing Basics Workshop will be conducted by Renz Lukban.
 

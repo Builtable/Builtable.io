@@ -10,7 +10,7 @@ price: "2290"
 categories: workshops
 imageUrl: /assets/images/workshops/calligraphy/main.jpg
 imageUrlAlt: papercutting art
-currentAttendees: 0
+currentAttendees: 1
 totalAttendees: 10
 ---
 We would like to invite you and learn the basic brush techniques / calligraphy so that you can

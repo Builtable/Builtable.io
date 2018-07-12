@@ -10,7 +10,7 @@ price: "2500"
 categories: workshops
 imageUrl: /assets/images/workshops/copywriting/main.jpg
 imageUrlAlt: copywriting 101
-currentAttendees: 4
+currentAttendees: 8
 totalAttendees: 20
 ---
 

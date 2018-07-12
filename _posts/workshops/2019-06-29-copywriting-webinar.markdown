@@ -15,7 +15,6 @@ totalAttendees: 30
 ---
 
 Learn from anywhere through this webinar, whether you're stuck in traffic or in a different part of the world, come join us!
-
 In today’s competitive business world, writing has become one of the most sought-after skills in marketing. From writing compelling content, to being the mastermind of memorable taglines being a writer is a challenging yet rewarding profession. Writers face many challenges today, from finding fresh ideas, to being able to make a profit. These kinds of challenges can burn out your passion and get you stuck in a rut.
 
 Having the same problem? Worry no more, as [SEO Hacker](https://seo-hacker.net) founder and head honcho [Sean Si](https://seansi.org/), along with [Sigil](https://sigilbrand.com/) CEO and copywriting expert Vince Figueroa bring you Copywriting 101 Workshop: Making More Money Passively from the Digital World!

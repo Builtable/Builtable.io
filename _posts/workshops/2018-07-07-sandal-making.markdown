@@ -2,7 +2,7 @@
 layout: workshop
 pageTitle: "Sandal Crafting (Men and Women)"
 title:  "Sandal Crafting (Men and Women)"
-date:   2018-03-25 15:33:52 +0800
+date:   2018-03-26 15:34:52 +0800
 eventStartDate: 2018-07-07 13:00:00 +0800
 eventEndDate: 2018-07-07 17:00:00 +0800
 earlyPrice: "1750"
@@ -10,7 +10,7 @@ price: "2050"
 categories: workshops
 imageUrl: /assets/images/workshops/sandal-making/main.jpg
 imageUrlAlt: Sandal Crafting in the Philippines
-currentAttendees: 2
+currentAttendees: 0
 totalAttendees: 15
 ---
 

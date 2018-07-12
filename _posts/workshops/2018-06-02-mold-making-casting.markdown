@@ -10,8 +10,8 @@ price: "3000"
 categories: workshops
 imageUrl: /assets/images/workshops/mold-making/main.jpg
 imageUrlAlt: Ant-Man small figurine
-currentAttendees: 0
-totalAttendees: 15
+currentAttendees: 1
+totalAttendees: 10
 ---
 
 Ant-Man 2 is coming up and would it be better to make you're own small sized Ant-Man? And in the process, learn the method of cloning a sculpted figurine! Use molds to create objects in plaster of paris & resin. Get the chance to produce your own novelty toy for personal use or starting your own toy business.
