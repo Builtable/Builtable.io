@@ -2,6 +2,7 @@
 layout: main
 ---
 
+
 <div class="modal fade" id="kateModal" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -107,22 +108,31 @@ layout: main
         </div>
     </section>
 
+
+
     <section id="workshops">
 <div class="container">
     <div class="row">
         <h3>Our workshops!</h3>
 
         <div class="col-lg-12 ">
-          {% for post in site.categories["workshops"] reversed %}
-            <div class="col-sm-12 col-md-4 workshop-item">
+        
+            {% assign workshopsItems = site.categories["workshops"] | sort:'eventStartDate' %}
+          
+            {% for post in workshopsItems %}
+          
+          {% assign today_date = 'now' | date: '%s' %}
+          {% assign pre_EarlyBirdDate = post.earlyBirdEndDate | date: '%s' %}
+          {% assign pre_Startdate = post.eventStartDate | date: '%s' %}
+          
+          <div class="col-sm-12 col-md-4 workshop-item">
                 
-                {% assign today_date = 'now' | date: '%s' %}
-                {% assign pre_date = post.eventStartDate | date: '%s' %}
 
                 <div class="thumbnail">
                 <a href="{{post.url}}">
-                    {% if post.earlyPrice != "" %}
-                     <span class="promo">Early Bird Rate!</span>
+
+                    {% if pre_EarlyBirdDate > today_date %}
+                     <span class="promo">Early Bird Rate until {{ post.earlyBirdEndDate | date: "%B %d, %Y" }}</span>
                      {% endif %}
                  
                      <img src="{{post.imageUrl}}" alt="{{page.imageUrlAlt}}">
@@ -140,14 +150,14 @@ layout: main
                         <a href="{{post.url}}">
                     <h3>{{ post.title}}</h3>
                    
-                    {% if post.earlyPrice != ""  %}
+                    {% if pre_EarlyBirdDate > today_date %}
                     <h4 class="price">{{post.earlyPrice}} PHP <strike>{{post.price}} PHP</strike></h4>
-                    {%else%}
+                    {% else %}
                     <h4 class="price">{{post.price}} PHP</h4>
                     {% endif %}
 
                     
-                    {% if today_date > pre_date %}
+                    {% if today_date > pre_Startdate %}
                     <p class="date">TBA (To be announced)</p>
                     {% else %}
                     <p class="date">{{ post.eventStartDate | date: "%B %d, %Y - %r" }}</p>

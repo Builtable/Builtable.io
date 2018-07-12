@@ -5,6 +5,7 @@ title:  "Resin Jewelry Making"
 date:   2018-03-25 19:34:52 +0800
 eventStartDate: 2018-07-28 01:00:00 +0800
 eventEndDate: 2018-07-29 17:00:00 +0800
+earlyBirdEndDate: 2018-07-27 23:59:00 +0800
 earlyPrice: "2390"
 price: "2690"
 categories: workshops

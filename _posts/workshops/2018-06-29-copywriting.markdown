@@ -5,6 +5,7 @@ title:  "Copywriting 101"
 date:   2018-03-25 17:30:52 +0800
 eventStartDate: 2018-07-18 17:00:00 +0800
 eventEndDate: 2018-07-18 21:00:00 +0800
+earlyBirdEndDate: 2018-07-16 23:59:00 +0800
 earlyPrice: "2000"
 price: "2500"
 categories: workshops

@@ -57,6 +57,10 @@ height="0" width="0" ></iframe></noscript>
 {% include navheader.html %}
 {% include paymentModal.html %}
 
+{% assign today_date = 'now' | date: '%s' %}
+{% assign pre_EarlyBirdDate = page.earlyBirdEndDate | date: '%s' %}
+{% assign pre_Startdate = page.eventStartDate | date: '%s' %}
+
 
 
 <!-- Modal -->
@@ -69,7 +73,19 @@ height="0" width="0" ></iframe></noscript>
             </div>
             <div class="modal-body">
               <ol>
-                  <li>Deposit ₱{{page.earlyPrice}} per head to our <strong>BDO</strong> or <strong>Metrobank</strong> bank account: 
+                    
+            
+           
+                  <li>Deposit 
+
+                    {% if  pre_EarlyBirdDate > today_date  %}  
+                    ₱{{page.earlyPrice}} 
+                    {% endif %}
+                    {% if today_date > pre_EarlyBirdDate %}
+                    ₱ {{page.price}}
+                    {% endif %}   
+
+                      per head to our <strong>BDO</strong> or <strong>Metrobank</strong> bank account: 
                       <br>
                       <p><strong>Metrobank Account Name:
                             CTT.Synergy Corporation
@@ -114,8 +130,19 @@ height="0" width="0" ></iframe></noscript>
         <span class="breadcrumbs">
         <a href="/comaking">Workshops</a> / <span>{{page.title}}</span> 
         </span>
+       
 
-    <h1>{{page.title}} <span>₱ {{page.earlyPrice}}</span></h1>
+    <h1>
+        {{page.title}} 
+    
+            {% if  pre_EarlyBirdDate > today_date  %}
+            <span>₱ {{page.earlyPrice}}</span>
+            {% endif %}
+            {% if today_date > pre_EarlyBirdDate %}
+            <span>₱ {{page.price}}</span>
+            {% endif %}    
+    
+    </h1>
 
     {% if page.totalAttendees!= page.currentAttendees %}
                     <h3>{{page.totalAttendees |minus:page.currentAttendees}} Slots left!</h3>
@@ -125,29 +152,30 @@ height="0" width="0" ></iframe></noscript>
                     
                     {% endif %}
 
-    {% assign today_date = 'now' | date: '%s' %}
-    {% assign pre_date = page.eventStartDate | date: '%s' %}
-    {% if today_date > pre_date %}
+    
+    {% if today_date > pre_Startdate %}
     <h4 class="date">TBA (To be announced) </h4>
     {% else %}
        <h4 class="date">{{ page.eventStartDate | date: "%B %d, %Y - %I:%M %p" }} to {{page.eventEndDate | date: "%I:%M %p" }}</h4>
        {% endif %}
        <div class="workshop-actions">
          
-            {% if page.earlyPrice != '' %}
+            {% if  pre_EarlyBirdDate > today_date  %}
             <a class="btn" data-toggle="modal" data-target="#paymentModal" data-product="{{page.title}}" data-price="{{page.earlyPrice}}">Pay Online</a>
-        
-           {% else %}
-           <a class="btn" data-toggle="modal" data-target="#paymentModal" data-product="{{page.title}}" data-price="{{page.Price}}">Pay Online</a>
-         
+            {% endif %}
+            {% if today_date > pre_EarlyBirdDate %}
+           <a class="btn" data-toggle="modal" data-target="#paymentModal" data-product="{{page.title}}" data-price="{{page.price}}">Pay Online</a>
            {% endif %}
+           
             <a class="btn" data-toggle="modal" data-target="#bankDepositModal">Bank Deposit</a>
         </div>  
     </div>
     </div> 
  <div class="container">
      <div class="col-xs-12 col-md-10 workshop-content">
-          
+            {% if  pre_EarlyBirdDate > today_date  %}
+          <h4><Strong>*Earlybird is until {{ page.earlyBirdEndDate | date: "%B %d, %Y" }}</Strong></h4>
+          {% endif %}
             {{ content }}
 
      </div>
