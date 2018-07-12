@@ -3,8 +3,9 @@ layout: workshop
 pageTitle: "Leather Craft: Basic Bag Making"
 title:  "Leather Craft: Basic Bag Making"   
 date:   2018-03-25 17:33:52 +0800
-eventStartDate: 2018-07-21 13:00:00 +0800
-eventEndDate: 2018-07-21 17:00:00 +0800
+eventStartDate: 2018-09-08 13:00:00 +0800
+eventEndDate: 2018-09-08 17:00:00 +0800
+earlyBirdEndDate: 2018-09-01 23:59:00 +0800
 earlyPrice: "3090"
 price: "3490"
 categories: workshops

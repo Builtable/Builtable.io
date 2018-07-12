@@ -5,6 +5,7 @@ title:  "Basic Brush Lettering"
 date:   2018-03-25 15:33:53 +0800
 eventStartDate: 2018-07-14 13:00:00 +0800
 eventEndDate: 2018-07-14 18:00:00 +0800
+earlyBirdEndDate: 2018-07-13 23:59:00 +0800
 earlyPrice: "2000"
 price: "2290"
 categories: workshops

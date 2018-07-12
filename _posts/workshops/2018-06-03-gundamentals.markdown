@@ -5,6 +5,7 @@ title:  "GUNDAM Detailing Basics"
 date:   2018-03-25 18:34:52 +0800
 eventStartDate: 2018-07-28 13:00:00 +0800
 eventEndDate: 2018-07-28 18:00:00 +0800
+earlyBirdEndDate: 2018-07-18 23:59:00 +0800
 earlyPrice: "1590"
 price: "2090"
 categories: workshops

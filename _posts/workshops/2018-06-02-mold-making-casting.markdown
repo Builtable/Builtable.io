@@ -5,13 +5,14 @@ title:  "Mold making & casting Ant-Man"
 date:   2018-03-25 19:35:52 +0800
 eventStartDate: 2018-07-28 13:00:00 +0800
 eventEndDate: 2018-07-28 18:00:00 +0800
+earlyBirdEndDate: 2018-07-20 23:59:00 +0800
 earlyPrice: "2800"
 price: "3000"
 categories: workshops
 imageUrl: /assets/images/workshops/mold-making/main.jpg
 imageUrlAlt: Ant-Man small figurine
-currentAttendees: 1
-totalAttendees: 10
+currentAttendees: 6
+totalAttendees: 12
 ---
 
 Ant-Man 2 is coming up and would it be better to make you're own small sized Ant-Man? And in the process, learn the method of cloning a sculpted figurine! Use molds to create objects in plaster of paris & resin. Get the chance to produce your own novelty toy for personal use or starting your own toy business.
