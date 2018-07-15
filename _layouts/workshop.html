@@ -1,124 +1,15 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
-
-<head>
-        {% if site.url contains "builtable.co" %}
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-PD7V8GP');</script>
-<!-- End Google Tag Manager -->
-{% endif %}
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Builtable -  Workshops and Events space in Shaw Boulevard Mandaluyong City, Metro Manila, Philippines">
-    <meta name="author" content="Builtable Coworking">
-
-
-    <title>{{page.pageTitle}}</title>
-
-    
-       <!-- For Facebook -->
-<meta property="og:title" content="{{page.pageTitle}}" />
-<meta property="og:image" content="{{page.imageUrl}}/main-sm.jpg" />
-<meta property="og:description" content="{{page.content | truncate: 195}}" />
-
-
-
-    <!-- Bootstrap Core CSS -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="../css/main.min.css" rel="stylesheet">
-
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-    <link href='fonts/noodle.ttf'>
-
-    <link rel="icon" href="../favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="../assets/images/apple-touch-icon.png">
-
-
-</head>
-
-<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-        {% if site.url contains "builtable.co" %}
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PD7V8GP"
-height="0" width="0" ></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-{% endif %}
-
-{% include navheader.html %}
-{% include paymentModal.html %}
-
 {% assign today_date = 'now' | date: '%s' %}
 {% assign pre_EarlyBirdDate = page.earlyBirdEndDate | date: '%s' %}
 {% assign pre_Startdate = page.eventStartDate | date: '%s' %}
 
+{% include comake-head-tag.html %}
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
+{% include gtm-body.html %}
+{% include navheader.html %}
+{% include paymentModal.html %}
 
-<!-- Modal -->
-<div class="modal fade" id="bankDepositModal" tabindex="-1" role="dialog" aria-labelledby="bankDepositModal">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title" id="myModalLabel">4 Easy Steps to Bank Transfer!</h4>
-            </div>
-            <div class="modal-body">
-              <ol>
-                    
-            
-           
-                  <li>Deposit 
-
-                    {% if  pre_EarlyBirdDate > today_date  %}  
-                    ₱{{page.earlyPrice}} 
-                    {% endif %}
-                    {% if today_date > pre_EarlyBirdDate %}
-                    ₱ {{page.price}}
-                    {% endif %}   
-
-                      per head to our <strong>BDO</strong> or <strong>Metrobank</strong> bank account: 
-                      <br>
-                      <p><strong>Metrobank Account Name:
-                            CTT.Synergy Corporation
-                            <br>
-                            Metrobank Acct No.:
-                            0007881000616</strong></p>
-                        <p>
-                            <p>
-                                <strong>
-                                        BDO Account Name:
-                                        CTT.Synergy Corporation
-                                        <br>
-                                        BDO Acct No.:
-                                        000668083218
-                                </strong>
-                            </p>
-                
-                  </li>
-                  <li>
-                      Take a picture of the Deposit Slip!
-                  </li>
-                  <li>Email to <a href="mailto:connect@builtable.co">connect@builtable.co</a> 
-                    or <a href="https://m.facebook.com/messages/compose?ids=167600830348313" target="_new">FB Message</a> 
-                    a copy of the Bank Deposit Slip.</li>
-                  <li>Wait for our reply for the confirmation, and you're all set!</li>
-
-                </ol>
-                    <button type="button" data-dismiss="modal" class="btn btn-primary">Got it!</button>
-            </div>
-            
-          </div>
-        </div>
-      </div>
 
 
 
@@ -185,20 +76,8 @@ height="0" width="0" ></iframe></noscript>
     
 
     {% include footer.html %}
+    {% include scripts.html %}
 
-    <!-- jQuery -->
-    <script src="../js/jquery.js"></script>
-
-    <script src="https://www.paypalobjects.com/api/checkout.js"></script>
-
-        <!-- Scrolling Nav JavaScript -->
-    <script src="../js/jquery.easing.min.js"></script>
-    <script src="../js/scrolling-nav.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/main.js"></script>
-    <script src="../js/payment.js"></script>
-</body>
+  </body>
 
 </html>

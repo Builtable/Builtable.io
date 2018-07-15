@@ -1,9 +1,14 @@
+
+
+
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 
 <head>
-        
+    
 
+    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,11 +41,10 @@ create proper lettering work and different lettering styles. Join us in our call
 
 
 </head>
-
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
-
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-        
+
+
 
  <!-- Navigation -->
  <nav class="navbar navbar-fixed-top " role="navigation">
@@ -90,7 +94,7 @@ create proper lettering work and different lettering styles. Join us in our call
     </nav>
 
 
-
+<!-- AfterPayment Modal -->
 <div class="modal fade" id="paymentModal" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -119,6 +123,7 @@ create proper lettering work and different lettering styles. Join us in our call
 </div>
 <!-- /.modal -->
 
+<!-- AfterPayment Modal -->
 <div class="modal fade" id="afterPaymentModal" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -147,7 +152,7 @@ create proper lettering work and different lettering styles. Join us in our call
     </div>
     <!-- /.modal -->
 
-
+<!-- Gcash Modal -->
     <div class="modal fade" id="gcashModal"  tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -177,65 +182,52 @@ create proper lettering work and different lettering styles. Join us in our call
     <!-- /.modal -->
 
 
-
-
-
-
-
-<!-- Modal -->
+    <!-- Bank Deposit Modal -->
 <div class="modal fade" id="bankDepositModal" tabindex="-1" role="dialog" aria-labelledby="bankDepositModal">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title" id="myModalLabel">4 Easy Steps to Bank Transfer!</h4>
-            </div>
-            <div class="modal-body">
-              <ol>
-                    
-            
-           
-                  <li>Deposit 
-
-                    
-                    
-                    ₱ 2290
-                       
-
-                      per head to our <strong>BDO</strong> or <strong>Metrobank</strong> bank account: 
-                      <br>
-                      <p><strong>Metrobank Account Name:
-                            CTT.Synergy Corporation
-                            <br>
-                            Metrobank Acct No.:
-                            0007881000616</strong></p>
-                        <p>
-                            <p>
-                                <strong>
-                                        BDO Account Name:
-                                        CTT.Synergy Corporation
-                                        <br>
-                                        BDO Acct No.:
-                                        000668083218
-                                </strong>
-                            </p>
-                
-                  </li>
-                  <li>
-                      Take a picture of the Deposit Slip!
-                  </li>
-                  <li>Email to <a href="mailto:connect@builtable.co">connect@builtable.co</a> 
-                    or <a href="https://m.facebook.com/messages/compose?ids=167600830348313" target="_new">FB Message</a> 
-                    a copy of the Bank Deposit Slip.</li>
-                  <li>Wait for our reply for the confirmation, and you're all set!</li>
-
-                </ol>
-                    <button type="button" data-dismiss="modal" class="btn btn-primary">Got it!</button>
-            </div>
-            
-          </div>
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">4 Easy Steps to Bank Transfer!</h4>
         </div>
+        <div class="modal-body">
+          <ol>
+              <li>Deposit ₱2000 per head to our <strong>BDO</strong> or <strong>Metrobank</strong> bank account: 
+                  <br>
+                  <p><strong>Metrobank Account Name:
+                        CTT.Synergy Corporation
+                        <br>
+                        Metrobank Acct No.:
+                        0007881000616</strong></p>
+                    <p>
+                        <p>
+                            <strong>
+                                    BDO Account Name:
+                                    CTT.Synergy Corporation
+                                    <br>
+                                    BDO Acct No.:
+                                    000668083218
+                            </strong>
+                        </p>
+            
+              </li>
+              <li>
+                  Take a picture of the Deposit Slip!
+              </li>
+              <li>Email to <a href="mailto:connect@builtable.co">connect@builtable.co</a> 
+                or <a href="https://m.facebook.com/messages/compose?ids=167600830348313" target="_new">FB Message</a> 
+                a copy of the Bank Deposit Slip.</li>
+              <li>Wait for our reply for the confirmation, and you're all set!</li>
+
+            </ol>
+                <button type="button" data-dismiss="modal" class="btn btn-primary">Got it!</button>
+        </div>
+        
       </div>
+    </div>
+  </div>
+
+
 
 
 
@@ -336,20 +328,26 @@ create proper lettering work and different lettering styles. Join us in our call
     var Global_ENV = "sandbox";
 </script>
  
+      <!-- jQuery -->
+  <script src="../js/jquery.js"></script>
+  
+  
+  <script src="https://www.paypalobjects.com/api/checkout.js"></script>
+  
 
-    <!-- jQuery -->
-    <script src="../js/jquery.js"></script>
+      <!-- Scrolling Nav JavaScript -->
+  <script src="../js/jquery.easing.min.js"></script>
+  <script src="../js/scrolling-nav.js"></script>
 
-    <script src="https://www.paypalobjects.com/api/checkout.js"></script>
+  <!-- Bootstrap Core JavaScript -->
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/main.js"></script>
+  
+  <script src="../js/payment.js"></script>
+  
+  
 
-        <!-- Scrolling Nav JavaScript -->
-    <script src="../js/jquery.easing.min.js"></script>
-    <script src="../js/scrolling-nav.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/main.js"></script>
-    <script src="../js/payment.js"></script>
-</body>
+  </body>
 
 </html>

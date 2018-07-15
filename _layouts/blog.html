@@ -2,22 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 
 <head>
-        {% if site.url contains "builtable.co" %}
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-PD7V8GP');</script>
-<!-- End Google Tag Manager -->
-{% endif %}
-
+{% include gtm-head.html %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Builtable - Coworking Space, Office Space, Meeting Rooms, Private Rooms and Events space in Shaw Boulevard Mandaluyong City, Metro Manila, Philippines">
     <meta name="author" content="Builtable Coworking">
-
 
     <title>{{page.pageTitle}}</title>
 
@@ -33,8 +23,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <!-- <link href="../css/style.css" rel="stylesheet">
-    <link href="../css/scrolling-nav.css" rel="stylesheet"> -->
     <link href="../css/main.min.css" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
@@ -43,25 +31,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link rel="icon" href="../favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="../assets/images/apple-touch-icon.png">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
 </head>
 
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-        {% if site.url contains "builtable.co" %}
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PD7V8GP"
-height="0" width="0" ></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-{% endif %}
 
+{% include gtm-body.html %}
 {% include navheader.html %}
 <div class="blog bg-img desktop-only" style="background-image: url(..{{page.imageUrl}})"></div>
 <img src="{{page.imageUrl}}" class="img-responsive mobile-only"/>
@@ -81,17 +57,8 @@ height="0" width="0" ></iframe></noscript>
     
 
     {% include footer.html %}
+    {% include scripts.html %}
 
-    <!-- jQuery -->
-    <script src="../js/jquery.js"></script>
-
-        <!-- Scrolling Nav JavaScript -->
-    <script src="../js/jquery.easing.min.js"></script>
-    <script src="../js/scrolling-nav.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/main.js"></script>
 </body>
 
 </html>
