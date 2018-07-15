@@ -4,7 +4,7 @@ pageTitle: "Advanced Leather Craft Workshop"
 title:  "Advanced Leather Craft Workshop"   
 date:   2018-03-25 17:33:52 +0800
 eventStartDate: 2018-09-01 13:00:00 +0800
-eventEndDate: 2018-09-01 17:00:00 +0800
+eventEndDate: 2018-09-01 18:00:00 +0800
 earlyBirdEndDate: 2018-08-24 23:59:00 +0800
 earlyPrice: "3490"
 price: "3990"
