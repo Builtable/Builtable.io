@@ -3,19 +3,19 @@ layout: workshop
 pageTitle: "Leather Craft: Everyday Essentials"
 title:  "Leather Craft: Everyday Essentials"
 date:   2018-03-24 15:33:52 +0800
-eventStartDate: 2018-06-30 13:00:00 +0800
-eventEndDate: 2018-06-30 18:00:00 +0800
+eventStartDate: 2018-10-06 13:00:00 +0800
+eventEndDate: 2018-10-06 18:00:00 +0800
 earlyPrice: "2990"
 price: "3490"
 categories: workshops
 imageUrl: /assets/images/workshops/travel-essentials/main.jpg
 imageUrlAlt: leather crafting in the Philippines
-currentAttendees: 4
-totalAttendees: 20
+currentAttendees: 0
+totalAttendees: 15
 ---
 This event is an introduction into the wonderful world of leathercrafting. We will learn the basics of choosing and caring for leather, cutting leather, measuring and using patterns, learning the saddle stitch ,setting snaps and rivets, stamping leather & foiling.
 
-** STRICTLY should be in the event by 1:30 PM the LATEST.
+** STRICTLY should be in the event by 1:00 PM the LATEST.
 
 ** Participants can bring aprons or gloves if they don't want to get their clothes and hands dirty. Otherwise come in work clothes.
 
