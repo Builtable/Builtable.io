@@ -5,6 +5,7 @@ title:  "Leather Craft: Everyday Essentials"
 date:   2018-03-24 15:33:52 +0800
 eventStartDate: 2018-10-06 13:00:00 +0800
 eventEndDate: 2018-10-06 18:00:00 +0800
+earlyBirdEndDate: 2018-09-26 23:59:00 +0800
 earlyPrice: "2990"
 price: "3490"
 categories: workshops
