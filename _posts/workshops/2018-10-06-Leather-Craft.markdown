@@ -8,7 +8,7 @@ eventEndDate: 2018-10-06 18:00:00 +0800
 earlyPrice: "2990"
 price: "3490"
 categories: workshops
-imageUrl: /assets/images/workshops/travel-essentials/main.jpg
+imageUrl: /assets/images/workshops/travel-essentials/main
 imageUrlAlt: leather crafting in the Philippines
 currentAttendees: 0
 totalAttendees: 15
