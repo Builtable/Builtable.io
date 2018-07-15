@@ -3,9 +3,9 @@ layout: workshop
 pageTitle: "Advanced Leather Craft Workshop"
 title:  "Advanced Leather Craft Workshop"   
 date:   2018-03-25 17:33:52 +0800
-eventStartDate: 2018-08-25 13:00:00 +0800
-eventEndDate: 2018-08-25 17:00:00 +0800
-earlyBirdEndDate: 2018-08-17 23:59:00 +0800
+eventStartDate: 2018-09-01 13:00:00 +0800
+eventEndDate: 2018-09-01 17:00:00 +0800
+earlyBirdEndDate: 2018-08-24 23:59:00 +0800
 earlyPrice: "3490"
 price: "3990"
 categories: workshops
@@ -22,7 +22,7 @@ This workshop is for people who want to get into more technical skills in leathe
 
 3. Leather Journal Cover (Blank Page Journal Notebook Included) 
 
-**Add-ons: (Until Aug 22)**
+**Add-ons: (Until Aug 29)**
 - Basic Leather Tool Kit: 1500php
 - Deluxe Leather Tool Kit: 3500php
 
