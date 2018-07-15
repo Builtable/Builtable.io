@@ -9,7 +9,7 @@ earlyBirdEndDate: 2018-07-11 23:59:00 +0800
 earlyPrice: "2500"
 price: "3000"
 categories: workshops
-imageUrl: /assets/images/workshops/jewelry-making/main.jpg
+imageUrl: /assets/images/workshops/jewelry-making
 imageUrlAlt: jewelry beads making workshop
 currentAttendees: 5
 totalAttendees: 15

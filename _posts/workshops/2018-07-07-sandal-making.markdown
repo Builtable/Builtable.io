@@ -8,7 +8,7 @@ eventEndDate: 2018-07-07 17:00:00 +0800
 earlyPrice: "1750"
 price: "2050"
 categories: workshops
-imageUrl: /assets/images/workshops/sandal-making/main.jpg
+imageUrl: /assets/images/workshops/sandal-making
 imageUrlAlt: Sandal Crafting in the Philippines
 currentAttendees: 0
 totalAttendees: 15

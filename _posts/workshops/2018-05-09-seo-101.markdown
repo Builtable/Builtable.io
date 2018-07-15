@@ -8,7 +8,7 @@ eventEndDate: 2018-05-09 21:30:00 +0800
 earlyPrice: "700"
 price: "900"
 categories: workshops
-imageUrl: /assets/images/workshops/seo-101/main.jpg
+imageUrl: /assets/images/workshops/seo-101
 imageUrlAlt: Basics of SEO.
 currentAttendees: 0
 totalAttendees: 20

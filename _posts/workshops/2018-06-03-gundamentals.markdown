@@ -9,7 +9,7 @@ earlyBirdEndDate: 2018-07-18 23:59:00 +0800
 earlyPrice: "1590"
 price: "2090"
 categories: workshops
-imageUrl: /assets/images/workshops/gundam/main.jpg
+imageUrl: /assets/images/workshops/gundam
 imageUrlAlt: customizing gundams
 currentAttendees: 6
 totalAttendees: 15

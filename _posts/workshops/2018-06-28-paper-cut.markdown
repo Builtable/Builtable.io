@@ -9,7 +9,7 @@ earlyBirdEndDate: 2018-07-20 23:59:00 +0800
 earlyPrice: "1800"
 price: "2290"
 categories: workshops
-imageUrl: /assets/images/workshops/paper-cut/main.jpg
+imageUrl: /assets/images/workshops/paper-cut
 imageUrlAlt: papercutting art
 currentAttendees: 1
 totalAttendees: 10

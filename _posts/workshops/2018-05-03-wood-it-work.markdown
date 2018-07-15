@@ -8,7 +8,7 @@ eventEndDate: 2018-05-17 17:00:00 +0800
 earlyPrice: "1690"
 price: "1990"
 categories: workshops
-imageUrl: /assets/images/workshops/wood-it-work/main.jpg
+imageUrl: /assets/images/workshops/wood-it-work
 imageUrlAlt: woodworking
 currentAttendees: 0
 totalAttendees: 10

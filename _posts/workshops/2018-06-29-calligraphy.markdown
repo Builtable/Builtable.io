@@ -9,7 +9,7 @@ earlyBirdEndDate: 2018-07-13 23:59:00 +0800
 earlyPrice: "2000"
 price: "2290"
 categories: workshops
-imageUrl: /assets/images/workshops/calligraphy/main.jpg
+imageUrl: /assets/images/workshops/calligraphy
 imageUrlAlt: papercutting art
 currentAttendees: 1
 totalAttendees: 10

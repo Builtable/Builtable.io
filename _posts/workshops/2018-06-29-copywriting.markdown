@@ -9,7 +9,7 @@ earlyBirdEndDate: 2018-07-16 23:59:00 +0800
 earlyPrice: "2000"
 price: "2500"
 categories: workshops
-imageUrl: /assets/images/workshops/copywriting/main.jpg
+imageUrl: /assets/images/workshops/copywriting
 imageUrlAlt: copywriting 101
 currentAttendees: 8
 totalAttendees: 20

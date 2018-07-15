@@ -9,7 +9,7 @@ earlyBirdEndDate: 2018-09-01 23:59:00 +0800
 earlyPrice: "3090"
 price: "3490"
 categories: workshops
-imageUrl: /assets/images/workshops/leather-bag/main.jpg
+imageUrl: /assets/images/workshops/leather-bag
 imageUrlAlt: leather craft Basic Bag Making
 currentAttendees: 1
 totalAttendees: 15
