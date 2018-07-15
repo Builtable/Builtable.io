@@ -9,7 +9,7 @@ earlyBirdEndDate: 2018-08-15 23:59:00 +0800
 earlyPrice: "1800"
 price: "2300"
 categories: workshops
-imageUrl: /assets/images/workshops/clay-art/main.jpg
+imageUrl: /assets/images/workshops/clay-art
 imageUrlAlt: Clay art figurine
 currentAttendees: 0
 totalAttendees: 10

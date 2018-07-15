@@ -9,7 +9,7 @@ earlyBirdEndDate: 2018-08-24 23:59:00 +0800
 earlyPrice: "3490"
 price: "3990"
 categories: workshops
-imageUrl: /assets/images/workshops/advance-leather/main.jpg
+imageUrl: /assets/images/workshops/advance-leather
 imageUrlAlt: Advance leather craft Making
 currentAttendees: 0
 totalAttendees: 15

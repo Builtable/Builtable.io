@@ -9,7 +9,7 @@ earlyBirdEndDate: 2018-07-20 23:59:00 +0800
 earlyPrice: "2800"
 price: "3000"
 categories: workshops
-imageUrl: /assets/images/workshops/mold-making/main.jpg
+imageUrl: /assets/images/workshops/mold-making
 imageUrlAlt: Ant-Man small figurine
 currentAttendees: 6
 totalAttendees: 12

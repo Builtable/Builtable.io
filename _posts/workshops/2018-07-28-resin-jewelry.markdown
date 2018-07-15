@@ -9,7 +9,7 @@ earlyBirdEndDate: 2018-07-27 23:59:00 +0800
 earlyPrice: "2390"
 price: "2690"
 categories: workshops
-imageUrl: /assets/images/workshops/resin-making/main.jpg
+imageUrl: /assets/images/workshops/resin-making
 imageUrlAlt: Resin Jewelry Workshop
 currentAttendees: 0
 totalAttendees: 10
