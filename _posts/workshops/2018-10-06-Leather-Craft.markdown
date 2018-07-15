@@ -22,7 +22,7 @@ This event is an introduction into the wonderful world of leathercrafting. We wi
 ** Inclusion of materials (Cutting Mat / Metal Ruler / Punching Block / Mallet / Cutter / Needles / Hole Pucher / Setters / Silver Pen / Various Hardware (Snaps / Rivets / Keyrings / Doghook) / 2 sq.ft. Leather / Access to Leather Scrap Pile)
 
 Leathercraft Workshop will be conducted by
-Cidel Tiausas of Holy Craft Studios
+Cindel Tiausas of Holy Craft Studios
 
 **PROGRAM:**
 
