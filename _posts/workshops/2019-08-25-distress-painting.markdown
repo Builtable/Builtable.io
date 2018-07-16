@@ -15,7 +15,6 @@ currentAttendees: 0
 totalAttendees: 10
 ---
 Learn the techniques of Distress Painting and Découpage to make your own one-of-a-kind tray which may even be wall or table art.
-
 Workshop will be conducted by
 Marita Alcazaren De Leon of Handmade Lemonade
 
