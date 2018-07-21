@@ -36,4 +36,4 @@ He has been talking with the famous people out there!
 <br>
 *This is a  workshop from Builtable Coworking.*
 <br>
-*Builtable Coworking provides maker workshops in Shaw Boulevard, Mandaluyong city Philippines* 
+*Builtable Coworking provides maker workshops in Manila, Philippines* 

@@ -41,4 +41,4 @@ Let's get ready to get our hands dirty! Builtable presents, Wood it Work - wood 
 <br>
 <br>
 <br>
-*Builtable Coworking provides maker workshops in Shaw Boulevard, Mandaluyong city Philippines* 
+*Builtable Coworking provides maker workshops in Manila, Philippines* 
