@@ -3,15 +3,15 @@ layout: workshop
 pageTitle: "Jewelry Beads Accessory Making"
 title:  "Jewelry Beads Accessory Making"
 date:   2018-03-25 15:33:53 +0800
-eventStartDate: 2018-07-14 01:00:00 +0800
-eventEndDate: 2018-07-14 18:00:00 +0800
-earlyBirdEndDate: 2018-07-11 23:59:00 +0800
+eventStartDate: 2018-08-18 13:00:00 +0800
+eventEndDate: 2018-08-18 16:00:00 +0800
+earlyBirdEndDate: 2018-08-08 23:59:00 +0800
 earlyPrice: "2500"
 price: "3000"
 categories: workshops
 imageUrl: /assets/images/workshops/jewelry-making
 imageUrlAlt: jewelry beads making workshop
-currentAttendees: 5
+currentAttendees: 0
 totalAttendees: 15
 ---
 
@@ -27,7 +27,7 @@ This workshop will be lead by Koree Teng!
 
 Beads/Strings/Metal Chains/Wires/Nose Pliers/Wire Cutter Pliers
 
-** STRICTLY should be in the event by 9:30 AM the LATEST.
+** STRICTLY should be in the event by 1:30 PM the LATEST.
 ** Inclusive of the Kit
 
 **PROGRAM:**
