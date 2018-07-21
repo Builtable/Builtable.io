@@ -11,7 +11,7 @@ price: "2500"
 categories: workshops
 imageUrl: /assets/images/workshops/copywriting
 imageUrlAlt: copywriting 101
-currentAttendees: 8
+currentAttendees: 0
 totalAttendees: 20
 ---
 
@@ -44,4 +44,4 @@ Join us on this workshop at Builtable, as they will provide you with valuable in
 <br>
 *This is a workshop and talk from Builtable Coworking.*
 <br>
-*Builtable Coworking provides maker workshops in Shaw Boulevard, Mandaluyong city Philippines* 
+*Builtable Coworking provides maker workshops in Manila, Philippines* 

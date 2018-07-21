@@ -47,4 +47,4 @@ Learn from anywhere through this webinar, whether you're stuck in traffic or in 
 <br>
 *This is a webinar from Builtable Coworking.*
 <br>
-*Builtable Coworking provides maker workshops in Shaw Boulevard, Mandaluyong city Philippines* 
+*Builtable Coworking provides maker workshops in Manila, Philippines* 

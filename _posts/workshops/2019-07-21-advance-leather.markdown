@@ -54,4 +54,4 @@ This workshop is for people who want to get into more technical skills in leathe
 <br>
 <br>
 <br>
-*Builtable Coworking provides maker workshops in Shaw Boulevard, Mandaluyong city Philippines* 
+*Builtable Coworking provides maker workshops in Manila, Philippines* 

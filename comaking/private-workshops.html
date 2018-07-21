@@ -113,11 +113,11 @@ layout: main
     <section id="workshops">
 <div class="container">
     <div class="row">
-        <h3>Our comaking workshops!
-            <br>
-           <small> <a href="/comaking/private-workshops">See our private workshops!</a></small>
+        <h3>Our Private Workshops!
+
+                <br>
+                <small> <a href="/comaking">See our upcoming workshops!</a></small>
         </h3>
-        
 
         <div class="col-lg-12 ">
         
@@ -129,7 +129,7 @@ layout: main
           {% assign pre_EarlyBirdDate = post.earlyBirdEndDate | date: '%s' %}
           {% assign pre_Startdate = post.eventStartDate | date: '%s' %}
           {% assign eventDate = post.eventEndDate | date: '%s'%}
-          {% if eventDate > today_date %}
+          {% if today_date > eventDate %}
           <div class="col-sm-12 col-md-4 workshop-item">
 
                 <div class="thumbnail">
@@ -162,7 +162,7 @@ layout: main
 
                     
                     {% if today_date > pre_Startdate %}
-                    <p class="date">TBA (To be announced)</p>
+                    <p class="date">Pending Date...</p>
                     {% else %}
                     <p class="date">{{ post.eventStartDate | date: "%B %d, %Y - %r" }}</p>
                  

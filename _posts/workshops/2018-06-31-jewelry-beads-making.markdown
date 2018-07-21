@@ -81,4 +81,4 @@ Beads/Strings/Metal Chains/Wires/Nose Pliers/Wire Cutter Pliers
 <br>
 *This is a  workshop from Builtable Coworking.*
 <br>
-*Builtable Coworking provides maker workshops in Shaw Boulevard, Mandaluyong city Philippines* 
+*Builtable Coworking provides maker workshops in Manila, Philippines* 

@@ -56,4 +56,4 @@ Otherwise come in work clothes. (The burnishing and edge dyeing process as well 
 <br>
 <br>
 <br>
-*Builtable Coworking provides maker workshops in Shaw Boulevard, Mandaluyong city Philippines* 
+*Builtable Coworking provides maker workshops in Manila, Philippines* 

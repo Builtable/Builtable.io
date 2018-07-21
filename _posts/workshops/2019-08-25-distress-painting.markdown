@@ -80,4 +80,4 @@ Marita Alcazaren De Leon of Handmade Lemonade
 <br>
 <br>
 <br>
-*Builtable Coworking provides maker workshops in Shaw Boulevard, Mandaluyong city Philippines* 
+*Builtable Coworking provides maker workshops in Manila, Philippines* 
