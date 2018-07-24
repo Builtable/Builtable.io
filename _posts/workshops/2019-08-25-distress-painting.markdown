@@ -6,8 +6,8 @@ date:   2018-03-25 17:33:52 +0800
 eventStartDate: 2018-08-25 13:00:00 +0800
 eventEndDate: 2018-08-25 18:00:00 +0800
 earlyBirdEndDate: 2018-08-24 23:59:00 +0800
-earlyPrice: "3490"
-price: "3990"
+earlyPrice: "1490"
+price: "1990"
 categories: workshops
 imageUrl: /assets/images/workshops/distress-painting
 imageUrlAlt: Distress Painting with Découpage
