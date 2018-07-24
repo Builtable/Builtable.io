@@ -75,8 +75,6 @@ Marita Alcazaren De Leon of Handmade Lemonade
 
 ![Distress Painting with Découpage Workshop](/assets/images/workshops/distress-painting/Distress-Painting-and-Decoupage-1.jpg "Distress Painting with Découpage Workshop")
 
-![Distress Painting with Découpage Workshop](/assets/images/workshops/distress-painting/Distress-Painting-and-Decoupage-2.jpg "Distress Painting with Découpage Workshop")
-
 <br>
 <br>
 <br>
