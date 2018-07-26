@@ -11,7 +11,7 @@ price: "3000"
 categories: workshops
 imageUrl: /assets/images/workshops/mold-making
 imageUrlAlt: Ant-Man small figurine
-currentAttendees: 7
+currentAttendees: 9
 totalAttendees: 12
 ---
 
