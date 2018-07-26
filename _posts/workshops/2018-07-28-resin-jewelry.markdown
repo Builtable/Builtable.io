@@ -11,7 +11,7 @@ price: "2690"
 categories: workshops
 imageUrl: /assets/images/workshops/resin-making
 imageUrlAlt: Resin Jewelry Workshop
-currentAttendees: 2
+currentAttendees: 3
 totalAttendees: 10
 ---
 
