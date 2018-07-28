@@ -23,33 +23,13 @@ Marita Alcazaren De Leon of Handmade Lemonade
 
 · **1st 15 minutes**: Short presentation of the procedure which can be emailed to them by request.
 
-· **One hour: Paint and Distress**
+· **First hour: Paint and Distress**
 
-   1. Apply first color of paint which is the undercoat or the color which will just be secondary in the design.
-   2. Dry with a hair dryer. Cool setting only please.
-   3. Apply streaks of petroleum jelly to areas like corners which would naturally be weathered. This will prevent the second coat of paint to adhere to the first coat, therefore will later expose the undercoat.
-   4. Paint on the second color, usually a contrast to the first coat and the dominant color of the design.
-      As it is painted on, notice that the paint does not adhere to the areas with petroleum jelly.
-   5. Dry with a hair dryer.
-   6. Wipe off the petroleum jelly.
-   7. Notice that the paint gets distressed and the color underneath is exposed.
-   8. Add more distressing and texture by lightly sanding around the tray.
-
-· **Second hour:**
-
-   1. Cut designs from paper and/or magazines. This may also be done while waiting for the paint to dry.
-   2. Lay out the design on the tray- taking note of the positions, Tip: take a picture
+· **Second hour: Cut and Design**
 
 · **Third hour: Découpaging**
 
-   1. Apply Acrylic Emulsion on the tray and back of cutouts with a foam brush.
-   2. Position and stick cutouts layer by layer, each time coating the top with emulsion again and pressing gently with your fingers to remove excess and bubbles. Allow to dry each layer naturally just a bit then proceed to the next layer until the layout is finished. Make sure when cutouts have to be on the slotted lines, gently push the paper into the lines, scoring it with a blunt tool to follow the shape of the slot. Try to smooth out or press air bubbles and wrinkles as much as possible but need not be very smooth, just flat enough.
-   3. Use a dryer to dry the final design.
-
 · **Last 45 miunutes: Varnish** (This is optional if a shiny finish is not desired. Another coat of Acrylic Emulsion will serve as a matte finish)
-
-   1. The tray must be completely dry. Apply a very thin layer of varnish first on the design area and frame. Dry.
-   2. Varnish the back. Dry.
 
 **MATERIALS INCLUDED ARE:**
 
