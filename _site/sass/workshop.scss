@@ -70,12 +70,16 @@ span{
     margin: 0 auto;
 }
 }
+.workshop-small-img{
+    width:100%;
+}
 @media (max-width:1004px) {
     .workshop-actions{
         right:0px;
         top:0px;
         position: relative;
 }
+
 .workshop-content{
     img, iframe{
         width:100% !important;
