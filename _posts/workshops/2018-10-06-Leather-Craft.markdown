@@ -14,7 +14,13 @@ imageUrlAlt: leather crafting in the Philippines
 currentAttendees: 0
 totalAttendees: 15
 ---
-This event is an introduction into the wonderful world of leathercrafting. We will learn the basics of choosing and caring for leather, cutting leather, measuring and using patterns, learning the saddle stitch ,setting snaps and rivets, stamping leather & foiling.
+
+This event is an introduction into the wonderful world of leathercrafting. We will learn the basics of choosing and caring for leather, cutting leather, measuring and using patterns, learning the saddle stitch, setting snaps and rivets, stamping leather & foiling.
+
+Choose from 3 sets of leather goods to do:
+1. Basic Leather Goods (Coin Purse, Keychain, Cable Organizer & Braided Bracelet)
+2. Travel Leather Goods (Luggage Tag, Passport Holder, Keychain, Cord Wrap.)
+3. Tech Leather Goods (Smartphone Slip Case with Card Slot, Cord Roll, Keychain & Coffee Sleeve)
 
 ** STRICTLY should be in the event by 1:00 PM the LATEST.
 
@@ -25,51 +31,16 @@ This event is an introduction into the wonderful world of leathercrafting. We wi
 Leathercraft Workshop will be conducted by
 Cindel Tiausas of Holy Craft Studios
 
-**PROGRAM:**
-
-1:00-1:30
-- REGISTRATION
-
-1:30-1:45
-- Goals / Setting expectations for the workshop
-- Introduction of Facilitators
-- Introduction of Participants
-
-1:45-2:00
-- Learning About Leather
-- Understanding the Basic Tools
-
-2:00-3:00
-- PROJECT 1 & 2
-
-3:00-3:15
-- Coffee / Snack / Instagram Break 
-
-3:15-4:15
-- PROJECT 3 & 4
-
-4:15-4:45
-- FINISHING LEATHER GOODS
-Skills Learned
-- Burnishing Edges
-- Applying Edge Dye
-- Stamping Monogram / Foil
-- Cleaning Up The Project
-
-4:45-5:00
-- Discussing Online & Local Suppliers
-- Q&A
-- CLASS WRAP-UP
-- FILLING-UP Survey Form
-- DISTRIBUTION OF CERTIFICATES
-- CLASS PHOTO
 
 Sample output of the workshop:
 
-![handmade leathercraft](/assets/images/workshops/travel-essentials/travel-essential-1jpg.jpg "handmade leathercraft")
+1. Basic Leather Goods
+![handmade leathercraft](/assets/images/workshops/travel-essentials/Basic-Leather-Essentials.jpg "handmade leathercraft")
 
-![handmade leathercraft](/assets/images/workshops/travel-essentials/travel-essential-2.jpg "handmade leathercraft")
+2. Travel Leather Goods
+![handmade leathercraft](/assets/images/workshops/travel-essentials/Travel-Essentials.jpg "handmade leathercraft")
 
+3. TEch Leather Goods
 ![handmade leathercraft](/assets/images/workshops/travel-essentials/travel-essential-3.jpg "handmade leathercraft")
 <br>
 <br>
