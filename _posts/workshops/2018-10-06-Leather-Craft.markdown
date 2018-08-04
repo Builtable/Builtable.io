@@ -35,12 +35,15 @@ Cindel Tiausas of Holy Craft Studios
 Sample output of the workshop:
 
 1. Basic Leather Goods
+
 ![handmade leathercraft](/assets/images/workshops/travel-essentials/Basic-Leather-Essentials.jpg "handmade leathercraft")
 
 2. Travel Leather Goods
+
 ![handmade leathercraft](/assets/images/workshops/travel-essentials/Travel-Essentials.jpg "handmade leathercraft")
 
 3. TEch Leather Goods
+
 ![handmade leathercraft](/assets/images/workshops/travel-essentials/travel-essential-3.jpg "handmade leathercraft")
 <br>
 <br>
