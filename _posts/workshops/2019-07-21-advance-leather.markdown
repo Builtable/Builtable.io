@@ -23,17 +23,23 @@ This workshop is for people who want to get into more technical skills in leathe
 3. Leather Journal Cover (Blank Page Journal Notebook Included) 
 
 **Add-ons: (Until Aug 29)**
-- Basic Leather Tool Kit: 1500php
 - Deluxe Leather Tool Kit: 3500php
 
 **KIT INCLUSIONS**
-- Hole Puncher/Scratch 
-- Awl/Beveler Burnisher/Polishing 
-- Cloth/Vegetable 
-- Tanned Leather Materials 
+- Hole Puncher
+- Scratch Awl
+- Edge Beveler/Groover
+- Edge Slicker 
+- Needles & Gum Tragacanth
+- Vegetable Tanned Leather 
 
 **AVAILABLE FOR USE**
-- Gum Tragacanth/Edge Paint/Leather Dye/Leather Paint 
+- Cutting Mat
+- Ruler
+- Cutter
+- Punching Block
+- Glue
+- Templates
 
 **STRICTLY should be in the event by 1:00 PM the LATEST.**
 
