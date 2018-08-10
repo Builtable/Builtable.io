@@ -3,8 +3,8 @@ layout: workshop
 pageTitle: "Wood Working Workshop (Home Office Essentials)"
 title:  "Wood Working Workshop"
 date:   2018-03-26 15:33:52 +0800
-eventStartDate: 2018-10-1 13:00:00 +0800
-eventEndDate: 2018-10-1 17:00:00 +0800
+eventStartDate: 2018-09-1 13:00:00 +0800
+eventEndDate: 2018-09-1 17:00:00 +0800
 earlyPrice: "1690"
 price: "1990"
 categories: workshops
