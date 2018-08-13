@@ -11,7 +11,7 @@ earlyBirdEndDate: 2018-09-6 23:59:00 +0800
 categories: workshops
 imageUrl: /assets/images/workshops/wood-it-work
 imageUrlAlt: woodworking
-currentAttendees: 1
+currentAttendees: 2
 totalAttendees: 10
 ---
 Let's get ready to get our hands dirty! Builtable presents, Wood it Work - wood working workshop! In this session we will go through the process of making your own recycled wooden lamp! Bring home a lamp, learn the the basics of woodworking and have fun!
