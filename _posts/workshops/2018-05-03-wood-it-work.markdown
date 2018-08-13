@@ -7,6 +7,7 @@ eventStartDate: 2018-09-1 13:00:00 +0800
 eventEndDate: 2018-09-1 17:00:00 +0800
 earlyPrice: "1690"
 price: "1990"
+earlyBirdEndDate: 2018-09-6 23:59:00 +0800
 categories: workshops
 imageUrl: /assets/images/workshops/wood-it-work
 imageUrlAlt: woodworking
