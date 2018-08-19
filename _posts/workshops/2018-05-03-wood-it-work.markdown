@@ -11,7 +11,7 @@ earlyBirdEndDate: 2018-08-29 23:59:00 +0800
 categories: workshops
 imageUrl: /assets/images/workshops/wood-it-work
 imageUrlAlt: woodworking
-currentAttendees: 2
+currentAttendees: 3
 totalAttendees: 10
 ---
 Let's get ready to get our hands dirty! Builtable presents, Wood it Work - wood working workshop! In this session we will go through the process of making your own recycled wooden lamp! Bring home a lamp, learn the the basics of woodworking and have fun!
@@ -37,7 +37,9 @@ Let's get ready to get our hands dirty! Builtable presents, Wood it Work - wood 
 - 16:00 - 17:00 Assembly and Painting
 - 17:00 - 17:30 Concluding and Awarding Remarks
 
-![wooden lamp](/assets/images/workshops/wood-it-work/wooden-lamp.jpg "wooden lamp")
+![recycled wooden lamp](/assets/images/workshops/wood-it-work/Recycled-Wooden-Lamp-1.jpg "recycled wooden lamp")
+![recycled wooden lamp](/assets/images/workshops/wood-it-work/Recycled-Wooden-Lamp-2.jpg "recycled wooden lamp")
+![recycled wooden lamp](/assets/images/workshops/wood-it-work/Recycled-Wooden-Lamp-3.jpg "recycled wooden lamp")
 
 <br>
 <br>
