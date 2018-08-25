@@ -62,7 +62,7 @@ Apron
 Pen and Paper
 Towel
 
-##### Some photos of the process:
+##### Some photos of the workshop:
 
 ![Mold Making workshop](../../assets/images/workshops/mold-making/molding-and-casting-batman.jpg "Batman Mold")
 
