@@ -1,21 +1,22 @@
 ---
 layout: workshop
-pageTitle: "Mold making & casting Ant-Man"
-title:  "Mold making & casting Ant-Man"
+pageTitle: "Mold making & casting Batman"
+title:  "Mold making & casting Batman"
 date:   2018-03-25 19:35:52 +0800
-eventStartDate: 2018-07-28 13:00:00 +0800
-eventEndDate: 2018-07-28 18:00:00 +0800
-earlyBirdEndDate: 2018-07-20 23:59:00 +0800
+eventStartDate: 2018-09-29 13:00:00 +0800
+eventEndDate: 2018-09-29 18:00:00 +0800
+earlyBirdEndDate: 2018-09-26 23:59:00 +0800
 earlyPrice: "2800"
 price: "3000"
 categories: workshops
 imageUrl: /assets/images/workshops/mold-making
-imageUrlAlt: Ant-Man small figurine
+imageUrlAlt: Batman small figurine
 currentAttendees: 0
 totalAttendees: 12
 ---
 
-Ant-Man 2 is coming up and would it be better to make you're own small sized Ant-Man? And in the process, learn the method of cloning a sculpted figurine! Use molds to create objects in plaster of paris & resin. Get the chance to produce your own novelty toy for personal use or starting your own toy business.
+Learn the method of cloning a sculpted figurine by creating your own miniature sized Batman! Use molds to create objects in plaster of paris & resin. Get the chance to produce your own novelty toy for personal use or starting your own toy business.
+
 
 
 <strong>PROGRAM: </strong>
@@ -63,16 +64,7 @@ Towel
 
 ##### Some photos of the process:
 
-![Mold Making workshop](../../assets/images/workshops/mold-making/step-1.jpg "silicon mold")
-<br>
-<br>
-![Mold Making workshop](../../assets/images/workshops/mold-making/step-2.jpg "plaster of paris")
-<br>
-<br>
-![Mold Making workshop](../../assets/images/workshops/mold-making/step-3.jpg "Silicon Mold")
-<br>
-<br>
-![Mold Making workshop](../../assets/images/workshops/mold-making/step-4.jpg "infinity Gauntlet")
+![Mold Making workshop](../../assets/images/workshops/mold-making/Molding-and-Casting-Batman "Batman Mold")
 
 
 <br>
