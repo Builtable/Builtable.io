@@ -64,7 +64,7 @@ Towel
 
 ##### Some photos of the process:
 
-![Mold Making workshop](../../assets/images/workshops/mold-making/molding-and-casting-batman "Batman Mold")
+![Mold Making workshop](../../assets/images/workshops/mold-making/molding-and-casting-batman.jpg "Batman Mold")
 
 
 <br>
