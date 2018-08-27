@@ -11,7 +11,7 @@ price: "3990"
 categories: workshops
 imageUrl: /assets/images/workshops/advance-leather
 imageUrlAlt: Advance leather craft Making
-currentAttendees: 0
+currentAttendees: 3
 totalAttendees: 15
 ---
 This workshop is for people who want to get into more technical skills in leather crafting such as edge finishing, edge painting, lacing, dyeing, painting and stamping, carving leather and leather pyrography. Get to make one full Vegetable Tanned Leather item. You can choose either of the following projects:
