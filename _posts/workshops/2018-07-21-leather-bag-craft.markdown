@@ -11,7 +11,7 @@ price: "3490"
 categories: workshops
 imageUrl: /assets/images/workshops/leather-bag
 imageUrlAlt: leather craft Basic Bag Making
-currentAttendees: 1
+currentAttendees: 5
 totalAttendees: 15
 ---
 Have you ever imagine of having a bag that has your signature on it? Let Cindel & Abby of HOLY CRAFT! Studios guide you in making one through this hand-made leather bag workshop! Learn to design & make your very own Leather Carry-all Bag & Bag Ornament for yourself or someone!
