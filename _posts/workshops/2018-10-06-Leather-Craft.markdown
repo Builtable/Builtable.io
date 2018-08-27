@@ -11,7 +11,7 @@ price: "3490"
 categories: workshops
 imageUrl: /assets/images/workshops/travel-essentials/
 imageUrlAlt: leather crafting in the Philippines
-currentAttendees: 0
+currentAttendees: 1
 totalAttendees: 15
 ---
 
