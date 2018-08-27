@@ -11,7 +11,7 @@ price: "3000"
 categories: workshops
 imageUrl: /assets/images/workshops/mold-making
 imageUrlAlt: Batman small figurine
-currentAttendees: 0
+currentAttendees: 3
 totalAttendees: 12
 ---
 
