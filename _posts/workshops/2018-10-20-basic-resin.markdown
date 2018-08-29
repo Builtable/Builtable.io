@@ -41,6 +41,7 @@ Each participant will bring home their own clay prototype, mold, and finish prod
 
 
 ![ref magnets made from resin](/assets/images/workshops/basic-resin/sample-1.jpg "ref magnets made from resin")
+
 ![ref magnets made from resin](/assets/images/workshops/basic-resin/sample-2.jpg "ref magnets made from resin")
 
 
