@@ -48,4 +48,5 @@ Each participant will bring home their own clay prototype, mold, and finish prod
 <br>
 <br>
 *Workshop by Ross Dionisio*
+
 *Builtable Coworking provides maker workshops in Manila, Philippines* 
