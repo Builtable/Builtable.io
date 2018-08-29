@@ -29,9 +29,9 @@ Learn how to make a personalized ref magnet design in polymer clay and reproduce
   - Paint the resin ref magnet using airbrush and hand paint it using brush.
 
 **Inclusions**
--lunch & snacks
--materials & hand outs
--certificate
+- lunch & snacks
+- materials & hand outs
+- certificate
 
 **Things to bring:**
 - Plastic box to secure your output after the workshop.
