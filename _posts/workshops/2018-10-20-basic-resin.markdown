@@ -7,7 +7,7 @@ eventStartDate: 2018-10-20 10:00:00 +0800
 eventEndDate: 2018-10-20 18:00:00 +0800
 earlyPrice: "3800"
 price: "4000"
-earlyBirdEndDate: 2018-10-27 23:59:00 +0800
+earlyBirdEndDate: 2018-10-18 23:59:00 +0800
 categories: workshops
 imageUrl: /assets/images/workshops/basic-resin
 imageUrlAlt: Basic Resin
