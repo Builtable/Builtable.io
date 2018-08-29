@@ -19,14 +19,14 @@ Learn how to make a personalized ref magnet design in polymer clay and reproduce
 
 
 **Workshop Program**
--Polymer Clay
- Create a ref magnet prototype from scratch using polymer clay.
--Mold Making
-Create a mold for the ref magnet prototype.
--Resin Casting
-Reproduce the ref magnet prototype by resin casting using the custom mold.
--Painting
-Paint the resin ref magnet using airbrush and hand paint it using brush.
+- Polymer Clay
+  - Create a ref magnet prototype from scratch using polymer clay.
+- Mold Making
+ - Create a mold for the ref magnet prototype.
+- Resin Casting
+ - Reproduce the ref magnet prototype by resin casting using the custom mold.
+- Painting
+ - Paint the resin ref magnet using airbrush and hand paint it using brush.
 
 **Inclusions**
 -lunch & snacks
