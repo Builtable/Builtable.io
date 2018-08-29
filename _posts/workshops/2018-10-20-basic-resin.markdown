@@ -45,9 +45,9 @@ Paint the resin ref magnet using airbrush and hand paint it using brush.
 Each participant will bring home their own clay prototype, mold, and finish product.
 
 
-![ref magnets made from resin](/assets/images/workshops/wood-it-work/Recycled-Wooden-Lamp-1.jpg "ref magnets made from resin")
-![ref magnets made from resin](/assets/images/workshops/wood-it-work/Recycled-Wooden-Lamp-2.jpg "ref magnets made from resin")
-![ref magnets made from resin](/assets/images/workshops/wood-it-work/Recycled-Wooden-Lamp-3.jpg "ref magnets made from resin")
+![ref magnets made from resin](/assets/images/workshops/basic-resin/sample-1.jpg "ref magnets made from resin")
+![ref magnets made from resin](/assets/images/workshops/basic-resin/sample-2.jpg "ref magnets made from resin")
+
 
 <br>
 <br>
